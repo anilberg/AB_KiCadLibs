@@ -55,6 +55,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/TexasInstruments-LM4562MAXNOPB/C57367"
@@ -63,6 +64,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_locked" ""
@@ -301,6 +303,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/TexasInstruments-NE5532DR/C7426"
@@ -309,6 +312,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_locked" ""
