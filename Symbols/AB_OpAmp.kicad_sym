@@ -22,8 +22,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 5.08 0)
+		(property "Footprint" "AB_SO:SOP-8"
+			(at 0 -10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -268,8 +268,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 5.08 0)
+		(property "Footprint" "AB_SO:SOP-8"
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)

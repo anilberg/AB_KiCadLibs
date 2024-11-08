@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AB_SO:SSOP-28"
 			(at 24.384 -56.134 0)
 			(effects
 				(font
