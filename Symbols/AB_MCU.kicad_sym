@@ -1929,7 +1929,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 68.58 270)
+				(at 3.81 68.58 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -1947,7 +1947,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 68.58 270)
+				(at -8.89 68.58 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -1965,7 +1965,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 52.07 0)
+				(at -25.4 43.18 0)
 				(length 2.54)
 				(name "PH0/OSC_IN"
 					(effects
@@ -1983,7 +1983,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 49.53 0)
+				(at -25.4 40.64 0)
 				(length 2.54)
 				(name "PH1/OSC_OUT"
 					(effects
@@ -2091,7 +2091,7 @@
 				)
 			)
 			(pin power_in line
-				(at -1.27 68.58 270)
+				(at -6.35 68.58 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -2145,7 +2145,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 68.58 270)
+				(at 10.16 68.58 270)
 				(length 2.54)
 				(name "VREF+"
 					(effects
@@ -2163,7 +2163,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 68.58 270)
+				(at 12.7 68.58 270)
 				(length 2.54)
 				(name "VDDA"
 					(effects
@@ -2181,7 +2181,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 44.45 0)
+				(at -25.4 35.56 0)
 				(length 2.54)
 				(name "PA0"
 					(effects
@@ -2199,7 +2199,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 41.91 0)
+				(at -25.4 33.02 0)
 				(length 2.54)
 				(name "PA1"
 					(effects
@@ -2217,7 +2217,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 39.37 0)
+				(at -25.4 30.48 0)
 				(length 2.54)
 				(name "PA2"
 					(effects
@@ -2235,7 +2235,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 36.83 0)
+				(at -25.4 27.94 0)
 				(length 2.54)
 				(name "PA3"
 					(effects
@@ -2271,7 +2271,7 @@
 				)
 			)
 			(pin power_in line
-				(at 3.81 68.58 270)
+				(at -3.81 68.58 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -2289,7 +2289,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 34.29 0)
+				(at -25.4 25.4 0)
 				(length 2.54)
 				(name "PA4"
 					(effects
@@ -2325,7 +2325,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 31.75 0)
+				(at -25.4 22.86 0)
 				(length 2.54)
 				(name "PA5"
 					(effects
@@ -2343,7 +2343,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 29.21 0)
+				(at -25.4 20.32 0)
 				(length 2.54)
 				(name "PA6"
 					(effects
@@ -2361,7 +2361,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 26.67 0)
+				(at -25.4 17.78 0)
 				(length 2.54)
 				(name "PA7"
 					(effects
@@ -2415,7 +2415,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 1.27 0)
+				(at -25.4 -7.62 0)
 				(length 2.54)
 				(name "PB0"
 					(effects
@@ -2433,7 +2433,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -1.27 0)
+				(at -25.4 -10.16 0)
 				(length 2.54)
 				(name "PB1"
 					(effects
@@ -2451,7 +2451,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -3.81 0)
+				(at -25.4 -12.7 0)
 				(length 2.54)
 				(name "PB2"
 					(effects
@@ -2649,7 +2649,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -24.13 0)
+				(at -25.4 -33.02 0)
 				(length 2.54)
 				(name "PB10"
 					(effects
@@ -2721,7 +2721,7 @@
 				)
 			)
 			(pin power_in line
-				(at 6.35 68.58 270)
+				(at -1.27 68.58 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -2739,7 +2739,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -29.21 0)
+				(at -25.4 -38.1 0)
 				(length 2.54)
 				(name "PB12"
 					(effects
@@ -2757,7 +2757,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -31.75 0)
+				(at -25.4 -40.64 0)
 				(length 2.54)
 				(name "PB13"
 					(effects
@@ -2775,7 +2775,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -34.29 0)
+				(at -25.4 -43.18 0)
 				(length 2.54)
 				(name "PB14"
 					(effects
@@ -2793,7 +2793,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -36.83 0)
+				(at -25.4 -45.72 0)
 				(length 2.54)
 				(name "PB15"
 					(effects
@@ -2901,7 +2901,7 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 68.58 270)
+				(at -11.43 68.58 270)
 				(length 2.54)
 				(name "VBAT"
 					(effects
@@ -3045,7 +3045,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 24.13 0)
+				(at -25.4 15.24 0)
 				(length 2.54)
 				(name "PA8"
 					(effects
@@ -3063,7 +3063,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 21.59 0)
+				(at -25.4 12.7 0)
 				(length 2.54)
 				(name "PA9"
 					(effects
@@ -3081,7 +3081,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 19.05 0)
+				(at -25.4 10.16 0)
 				(length 2.54)
 				(name "PA10"
 					(effects
@@ -3117,7 +3117,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 16.51 0)
+				(at -25.4 7.62 0)
 				(length 2.54)
 				(name "PA11"
 					(effects
@@ -3135,7 +3135,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 13.97 0)
+				(at -25.4 5.08 0)
 				(length 2.54)
 				(name "PA12"
 					(effects
@@ -3153,7 +3153,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 11.43 0)
+				(at -25.4 2.54 0)
 				(length 2.54)
 				(name "PA13"
 					(effects
@@ -3207,7 +3207,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 68.58 270)
+				(at 1.27 68.58 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -3225,7 +3225,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 8.89 0)
+				(at -25.4 0 0)
 				(length 2.54)
 				(name "PA14"
 					(effects
@@ -3243,7 +3243,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 6.35 0)
+				(at -25.4 -2.54 0)
 				(length 2.54)
 				(name "PA15"
 					(effects
@@ -3477,7 +3477,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -6.35 0)
+				(at -25.4 -15.24 0)
 				(length 2.54)
 				(name "PB3"
 					(effects
@@ -3513,7 +3513,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -8.89 0)
+				(at -25.4 -17.78 0)
 				(length 2.54)
 				(name "PB4"
 					(effects
@@ -3531,7 +3531,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -11.43 0)
+				(at -25.4 -20.32 0)
 				(length 2.54)
 				(name "PB5"
 					(effects
@@ -3549,7 +3549,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -13.97 0)
+				(at -25.4 -22.86 0)
 				(length 2.54)
 				(name "PB6"
 					(effects
@@ -3567,7 +3567,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -16.51 0)
+				(at -25.4 -25.4 0)
 				(length 2.54)
 				(name "PB7"
 					(effects
@@ -3585,7 +3585,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 59.69 0)
+				(at -25.4 54.61 0)
 				(length 2.54)
 				(name "BOOT0"
 					(effects
@@ -3603,7 +3603,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -19.05 0)
+				(at -25.4 -27.94 0)
 				(length 2.54)
 				(name "PB8"
 					(effects
@@ -3621,7 +3621,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -21.59 0)
+				(at -25.4 -30.48 0)
 				(length 2.54)
 				(name "PB9"
 					(effects
