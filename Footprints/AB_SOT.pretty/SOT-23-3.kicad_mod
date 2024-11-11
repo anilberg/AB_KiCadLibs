@@ -6,24 +6,24 @@
 	(descr "SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "SOT TO_SOT_SMD")
 	(property "Reference" "REF**"
-		(at 0 -2.4 0)
+		(at 0 -2.25 0)
 		(layer "F.SilkS")
 		(uuid "e2f2d739-08b0-4a19-8a38-b94039759c59")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 		)
 	)
-	(property "Value" "SOT-23-3"
-		(at 0 2.4 0)
+	(property "Value" "Val**"
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "e2fd9e6b-a514-4bb0-a85a-30aab9bb5bdd")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.06)
 			)
 		)
 	)
@@ -65,18 +65,18 @@
 	)
 	(attr smd)
 	(fp_line
-		(start 0 -1.56)
-		(end -1.8 -1.56)
+		(start -0.9 -1.56)
+		(end -0.9 -1.35)
 		(stroke
 			(width 0.12)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "7da049f0-b074-4478-ad4a-19b520673c10")
+		(uuid "53ffdaf3-f1f1-41a9-a904-91d1fe01c0b1")
 	)
 	(fp_line
-		(start 0 -1.56)
-		(end 0.8 -1.56)
+		(start -0.9 -1.56)
+		(end 0.95 -1.56)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -85,8 +85,38 @@
 		(uuid "f2788e76-1924-4400-9b6f-807dec73955f")
 	)
 	(fp_line
-		(start 0 1.56)
-		(end -0.8 1.56)
+		(start -0.9 0.55)
+		(end -0.9 -0.55)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "db145ad6-5da3-4303-b281-c2a4c8444f67")
+	)
+	(fp_line
+		(start -0.9 1.35)
+		(end -0.9 1.56)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5ca651c9-4d66-48a5-aafe-9a2d64ee825f")
+	)
+	(fp_line
+		(start 0.95 -1.56)
+		(end 0.95 -0.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "95b741b1-4daf-4faf-a788-e2ef0b783194")
+	)
+	(fp_line
+		(start 0.95 1.56)
+		(end -0.9 1.56)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -95,18 +125,18 @@
 		(uuid "998c25a3-d73c-4f08-8390-ead15693319c")
 	)
 	(fp_line
-		(start 0 1.56)
-		(end 0.8 1.56)
+		(start 0.95 1.56)
+		(end 0.95 0.4)
 		(stroke
 			(width 0.12)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "f27089b5-8be8-43f0-8eec-0591cbc3cd19")
+		(uuid "7bacf62e-62d7-4806-95b6-bfc87ea7c56f")
 	)
 	(fp_line
-		(start -2.05 -1.7)
-		(end -2.05 1.7)
+		(start -1.9 -1.7)
+		(end -1.9 1.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -115,8 +145,8 @@
 		(uuid "5f305b7b-117b-4be1-9a52-d04fea2b220c")
 	)
 	(fp_line
-		(start -2.05 1.7)
-		(end 2.05 1.7)
+		(start -1.9 1.7)
+		(end 1.9 1.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -125,8 +155,8 @@
 		(uuid "d03e4358-745d-4f46-be97-b032d624ce4f")
 	)
 	(fp_line
-		(start 2.05 -1.7)
-		(end -2.05 -1.7)
+		(start 1.9 -1.7)
+		(end -1.9 -1.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -135,8 +165,8 @@
 		(uuid "1a1ef2f1-895a-46fc-95ea-78e7e3a4f5a0")
 	)
 	(fp_line
-		(start 2.05 1.7)
-		(end 2.05 -1.7)
+		(start 1.9 1.7)
+		(end 1.9 -1.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -194,17 +224,6 @@
 		(layer "F.Fab")
 		(uuid "aa50e9b0-820c-4fa4-bc38-d8433a7beba6")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(uuid "e309251a-70bb-4880-a3d0-eb8aa861ed29")
-		(effects
-			(font
-				(size 0.4 0.4)
-				(thickness 0.06)
-			)
-		)
-	)
 	(pad "1" smd roundrect
 		(at -1.1375 -0.95)
 		(size 1.325 0.6)
@@ -226,7 +245,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "1fc9a825-55e3-4c5d-a99a-9ee5e22969fe")
 	)
-	(model "/media/anil/vault/KiCad/3D_Models/SOIC/SOT23-3.step"
+	(model "${AB_LIB_DIR}/3D_Models/SOT/SOT23-3.step"
 		(offset
 			(xyz 0 0 0)
 		)
