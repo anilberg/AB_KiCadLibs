@@ -22,8 +22,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at -16.256 9.398 0)
+		(property "Footprint" "AB_LCD_Screen:LCD1602"
+			(at 0.254 -21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
