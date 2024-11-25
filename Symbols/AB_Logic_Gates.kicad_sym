@@ -213,8 +213,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 4.064 0)
+		(property "Footprint" "AB_SO:SOIC-14"
+			(at 0 -5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -223,7 +223,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_onsemi-MC74ACT08DR2G_C233452.pdf"
-			(at 0.254 -23.622 0)
+			(at 0 -14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -232,7 +232,7 @@
 			)
 		)
 		(property "Description" "4.5V~5.5V 4uA 4 9ns@5V,50pF With Door SOIC-14 Logic Gates ROHS"
-			(at 0.254 -17.526 0)
+			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +241,7 @@
 			)
 		)
 		(property "LCSC" "C233452"
-			(at 0 -21.844 0)
+			(at -0.254 -13.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -250,7 +250,7 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/Onsemi-MC74ACT08DR2G/C233452"
-			(at 0.254 -19.304 0)
+			(at 0 -10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
