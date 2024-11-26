@@ -826,7 +826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AB_TO:TO-92"
+		(property "Footprint" "AB_TO:TO-92_Inline"
 			(at 0 -11.176 0)
 			(effects
 				(font
@@ -864,6 +864,15 @@
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/Onsemi-BS170D26Z/C258163"
 			(at 0 -20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO-92_Inline*"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
