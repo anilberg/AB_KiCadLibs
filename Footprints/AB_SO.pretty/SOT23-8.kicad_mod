@@ -1,0 +1,215 @@
+(footprint "SOT23-8"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2 0 90)
+		(layer "F.SilkS")
+		(uuid "30a99dd9-94ba-4cbd-ad52-edcc3ca1b83d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9d346e02-e0a0-4704-bb2d-684b14875b62")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c54aaec-c80e-4bb9-aefc-466d57fe2bd6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "121cb5e8-8d6a-40af-afc8-a8af8b9dda02")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "277f4e79-2824-4831-a228-5d0664a11a50")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.4478 -1.9)
+		(end 1.4478 -1.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e789324-3e3a-4ee8-9878-108d822eaa0f")
+	)
+	(fp_line
+		(start -1.4478 1.7018)
+		(end -1.4478 -1.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7f7e35e3-7646-46a7-bcf9-1042c6e09d59")
+	)
+	(fp_line
+		(start -1.0668 2.0828)
+		(end -1.4478 1.7018)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "13764591-2989-43ed-9ee6-f1657edbe20c")
+	)
+	(fp_line
+		(start 1.4478 -1.9)
+		(end 1.4478 2.0828)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "df8f307c-d3ac-4641-868d-44a7d2e1d62a")
+	)
+	(fp_line
+		(start 1.4478 2.0828)
+		(end -1.0668 2.0828)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7b35a550-aaa4-427c-8dda-94672b00c8f9")
+	)
+	(fp_rect
+		(start -1.5 -1.9)
+		(end 1.5 2.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "83b19ee5-d200-48a6-8ff6-668454490055")
+	)
+	(fp_rect
+		(start -1.35 -1.8)
+		(end 1.4 1.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "0c19d29e-c89b-4a78-af6b-d0ecba31c341")
+	)
+	(fp_circle
+		(center -1 1.6)
+		(end -0.8 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "3ae86095-570f-4f37-a43b-cd0e2816ba84")
+	)
+	(pad "1" smd rect
+		(at -0.975 1.2954)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "062ca89a-d0c2-4637-8a0e-d7322f242b44")
+	)
+	(pad "2" smd rect
+		(at -0.325 1.2954)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "062ca89a-d0c2-4637-8a0e-d7322f242b44")
+	)
+	(pad "3" smd rect
+		(at 0.325 1.2954)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "062ca89a-d0c2-4637-8a0e-d7322f242b44")
+	)
+	(pad "4" smd rect
+		(at 0.975 1.2954)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "062ca89a-d0c2-4637-8a0e-d7322f242b44")
+	)
+	(pad "5" smd rect
+		(at 0.975 -1.2954)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "062ca89a-d0c2-4637-8a0e-d7322f242b44")
+	)
+	(pad "6" smd rect
+		(at 0.325 -1.2954)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "062ca89a-d0c2-4637-8a0e-d7322f242b44")
+	)
+	(pad "7" smd rect
+		(at -0.325 -1.2954)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "062ca89a-d0c2-4637-8a0e-d7322f242b44")
+	)
+	(pad "8" smd rect
+		(at -0.975 -1.2954)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "062ca89a-d0c2-4637-8a0e-d7322f242b44")
+	)
+	(model "${KICAD_ANIL_LIBS}/3D-Models/SOIC/SOT23-8.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
