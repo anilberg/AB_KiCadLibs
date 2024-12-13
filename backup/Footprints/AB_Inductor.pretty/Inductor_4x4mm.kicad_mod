@@ -1,0 +1,181 @@
+(footprint "Inductor_4x4mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.1 0 90)
+		(layer "F.SilkS")
+		(uuid "e0364482-c442-4028-85ba-06f6545aba07")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "850e7ed2-7115-446b-83d7-74eb4d43c917")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9036523b-b4eb-4cbb-b173-cb590bd23432")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa2c18fe-6942-46eb-8784-b35a9be2b0c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a790f1d-f27a-4d98-aef5-e41459899cbb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -2.9)
+		(end 2.6 -2.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6d73f95a-659b-45fd-8346-317cc4afafe0")
+	)
+	(fp_line
+		(start -2.5 2.6)
+		(end -2.5 -2.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "296a56f3-c699-4d2e-8798-e3c36de41175")
+	)
+	(fp_line
+		(start -2.2 2.9)
+		(end -2.5 2.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c6ce2367-21a4-48af-9925-a26325418ee2")
+	)
+	(fp_line
+		(start 2.6 -2.9)
+		(end 2.6 2.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8c836be3-1986-44ef-aa98-d1f26685ad95")
+	)
+	(fp_line
+		(start 2.6 2.9)
+		(end -2.2 2.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "578d4402-0ed0-434e-9ba9-b1dddd9f8027")
+	)
+	(fp_line
+		(start -2.45 -2.775)
+		(end 2.6 -2.775)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f6db78fb-5756-433e-b021-ff38c32cce79")
+	)
+	(fp_line
+		(start -2.45 2.8)
+		(end -2.45 -2.775)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d93efeb2-564d-4b57-b6b6-e83de2e93500")
+	)
+	(fp_line
+		(start 2.6 -2.775)
+		(end 2.6 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9055b600-8385-45b5-a617-3ae874ab1147")
+	)
+	(fp_line
+		(start 2.6 2.8)
+		(end -2.45 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a9c9532c-75f5-4b91-9474-3dcfaf7d1343")
+	)
+	(pad "1" smd rect
+		(at 0 1.9)
+		(size 4.4 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "3692dce6-7a84-462f-9dc3-10eab2646dab")
+	)
+	(pad "2" smd rect
+		(at 0 -1.9)
+		(size 4.4 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "3692dce6-7a84-462f-9dc3-10eab2646dab")
+	)
+	(model "C:/anil/3d-models/Inductor/SMD_Inductor_4020.STEP"
+		(offset
+			(xyz 0 0 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

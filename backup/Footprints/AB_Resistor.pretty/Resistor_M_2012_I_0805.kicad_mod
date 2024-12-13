@@ -1,0 +1,196 @@
+(footprint "Resistor_M_2012_I_0805"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.6 0)
+		(layer "F.SilkS")
+		(uuid "416950d3-1163-4feb-8c0c-857f5b2b39bd")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9be0d17e-eba4-4af4-850f-152a6ef681dd")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f337292-b021-457d-8029-598b72b630f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c8db38e-0e03-4d29-b334-16e30aa848f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b04e06f-7c71-4399-b6ee-8ff8386632b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.3 -1.025)
+		(end 2.3 -1.025)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "91aaa46a-5a9f-49ff-b954-15fa671f430b")
+	)
+	(fp_line
+		(start -2.3 1.025)
+		(end -2.3 -1.025)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ae8cd4b6-78e6-4408-92a9-e4d272117bbf")
+	)
+	(fp_line
+		(start 2.3 -1.025)
+		(end 2.3 1.025)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7ff1e5d3-9b24-440d-87a8-809bbca0fd55")
+	)
+	(fp_line
+		(start 2.3 1.025)
+		(end -2.3 1.025)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "627d0dda-3659-43be-91d6-ba48c2d729b2")
+	)
+	(fp_line
+		(start -2.1 -0.85)
+		(end 2.1 -0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd9c4fb9-6257-400b-b114-6b1c84ae87d5")
+	)
+	(fp_line
+		(start -2.1 0.85)
+		(end -2.1 -0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "427f1a4f-f30d-4988-9570-310cad187e71")
+	)
+	(fp_line
+		(start 2.1 -0.85)
+		(end 2.1 0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2bd3f7a3-4c6e-4d75-a860-1c35be2fdf9e")
+	)
+	(fp_line
+		(start 2.1 0.85)
+		(end -2.1 0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "01ea9563-3a23-4c82-a08e-bdc42cdf0032")
+	)
+	(fp_rect
+		(start -2.15 -0.9)
+		(end 2.15 0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3443b3f1-830f-43cc-bbd9-80d613766b81")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.3 1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f7e2aa11-a8c6-4233-a035-8714d4fde4ba")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.175 0)
+		(size 1.5 1.27)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "86f4bb6e-da58-435c-98ff-06e34eb31e55")
+	)
+	(pad "2" smd roundrect
+		(at 1.175 0)
+		(size 1.5 1.27)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "86f4bb6e-da58-435c-98ff-06e34eb31e55")
+	)
+	(model "C:/anil/3d-models/Resistor/0805_Resistor.step"
+		(offset
+			(xyz 1 0 0.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
