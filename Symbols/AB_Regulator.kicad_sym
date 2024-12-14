@@ -503,7 +503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AB_SOT:SOT-23-3"
+		(property "Footprint" "AB_SO:SOT-23-3"
 			(at 0 -23.876 0)
 			(effects
 				(font
