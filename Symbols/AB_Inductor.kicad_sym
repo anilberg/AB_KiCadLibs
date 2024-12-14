@@ -100,10 +100,10 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0 0)
 						)
 					)
 				)
@@ -118,10 +118,10 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0 0)
 						)
 					)
 				)
@@ -939,7 +939,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 3.81 0)
+			(at 0 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -947,7 +947,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 -2.54 0)
+			(at -2.54 1.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,7 +955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 -2.54 0)
+			(at -2.54 1.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,7 +964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 -2.54 0)
+			(at -2.54 1.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -973,7 +973,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 -2.54 0)
+			(at -2.54 1.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,9 +982,33 @@
 			)
 		)
 		(symbol "L_Ferrite_Core_0_1"
+			(arc
+				(start -1.27 0.0001)
+				(mid -1.905 0.635)
+				(end -2.54 0.0001)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid -0.635 0.635)
+				(end -1.27 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
-					(xy -0.635 -2.54) (xy -0.635 2.54)
+					(xy -2.54 1.905) (xy 2.54 1.905)
 				)
 				(stroke
 					(width 0)
@@ -996,7 +1020,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0 -2.54)
+					(xy 2.54 1.27) (xy -2.54 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1007,33 +1031,9 @@
 				)
 			)
 			(arc
-				(start 1.2699 -1.27)
-				(mid 0.635 -1.905)
-				(end 1.2699 -2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.27 0)
-				(mid 0.635 -0.635)
-				(end 1.27 -1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.2699 1.27)
+				(start 1.27 0.0001)
 				(mid 0.635 0.635)
-				(end 1.2699 0)
+				(end 0 0.0001)
 				(stroke
 					(width 0)
 					(type default)
@@ -1043,9 +1043,9 @@
 				)
 			)
 			(arc
-				(start 1.27 2.54)
-				(mid 0.635 1.905)
-				(end 1.27 1.27)
+				(start 2.54 0)
+				(mid 1.905 0.635)
+				(end 1.27 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -1057,7 +1057,7 @@
 		)
 		(symbol "L_Ferrite_Core_1_1"
 			(pin passive line
-				(at 3.81 2.54 180)
+				(at -5.08 0 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1069,13 +1069,13 @@
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0 0)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 3.81 -2.54 180)
+				(at 5.08 0 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1087,7 +1087,7 @@
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0 0)
 						)
 					)
 				)
@@ -1421,8 +1421,8 @@
 		)
 		(symbol "L_P3T_S2T_1_1"
 			(pin passive line
-				(at -5.08 3.81 0)
-				(length 3.81)
+				(at -2.54 3.81 0)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -1439,8 +1439,8 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -1.27 0)
-				(length 3.81)
+				(at -2.54 -1.27 0)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -1457,8 +1457,8 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -6.35 0)
-				(length 3.81)
+				(at -2.54 -6.35 0)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -1475,8 +1475,8 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 3.81 180)
-				(length 2.54)
+				(at 5.08 3.81 180)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -1493,8 +1493,8 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -6.35 180)
-				(length 2.54)
+				(at 5.08 -6.35 180)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -2155,8 +2155,8 @@
 		)
 		(symbol "L_Trifilar_P1_S2_1_1"
 			(pin passive line
-				(at -6.35 5.08 0)
-				(length 2.54)
+				(at -5.08 5.08 0)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -2173,8 +2173,8 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -5.08 0)
-				(length 2.54)
+				(at -5.08 -5.08 0)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -2191,8 +2191,8 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 5.08 180)
-				(length 2.54)
+				(at 5.08 5.08 180)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -2209,8 +2209,8 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 1.27 180)
-				(length 2.54)
+				(at 5.08 1.27 180)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -2227,8 +2227,8 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -1.27 180)
-				(length 2.54)
+				(at 5.08 -1.27 180)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
@@ -2245,8 +2245,8 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -5.08 180)
-				(length 2.54)
+				(at 5.08 -5.08 180)
+				(length 1.27)
 				(name ""
 					(effects
 						(font
