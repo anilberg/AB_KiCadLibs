@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "resistor handsolder")
 	(property "Reference" "REF**"
-		(at 0 -1.1 0)
+		(at 0 -1.2 0)
 		(layer "F.SilkS")
 		(uuid "81f2022a-d679-43c4-91b2-73d62812055d")
 		(effects
