@@ -203,7 +203,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "5a26acfa-bc60-47ce-a4df-6171c81f6e6c")
 	)
-	(model "${AB_LIB_DIR}/3D_Models/Diode/DO214-AC.step"
+	(model "/media/anil/vault/AB_KiCADLibs/3D_Models/Diode/DO-214AC.step"
 		(offset
 			(xyz 0 0 0)
 		)
