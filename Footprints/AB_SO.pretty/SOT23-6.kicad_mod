@@ -168,7 +168,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "a0d5c00f-538f-496f-8049-4c582f05dd4a")
 	)
-	(model "${KICAD_ANIL_LIBS}/3D-Models/SOIC/SOT23-6.stp"
+	(model "/media/anil/vault/AB_KiCADLibs/3D_Models/SO/SOT23-6.stp"
 		(offset
 			(xyz 0 0 0)
 		)

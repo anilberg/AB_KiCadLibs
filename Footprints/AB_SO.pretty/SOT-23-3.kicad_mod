@@ -257,7 +257,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "1fc9a825-55e3-4c5d-a99a-9ee5e22969fe")
 	)
-	(model "${AB_LIB_DIR}/3D_Models/SOT/SOT23-3.step"
+	(model "${AB_LIB_DIR}/3D_Models/SO/SOT23-3.step"
 		(offset
 			(xyz 0 0 0)
 		)

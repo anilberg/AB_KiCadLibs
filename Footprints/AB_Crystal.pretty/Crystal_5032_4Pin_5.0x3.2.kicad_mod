@@ -258,15 +258,4 @@
 		(thermal_bridge_angle 45)
 		(uuid "c6270b26-aa33-4b8e-b971-4bb34d03dc86")
 	)
-	(model "${KICAD_ANIL_LIBS}/3D-Models/Crystal/Crystal_SMD_5032-4Pin_5.0x3.2mm.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )

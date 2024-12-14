@@ -304,7 +304,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "24082333-aa76-49fb-bd97-0b13ea69832d")
 	)
-	(model "${KICAD_ANIL_LIBS}/3D-Models/Connector/Molex_5023520500.stp"
+	(model "/media/anil/vault/AB_KiCADLibs/3D_Models/Connectors/Molex_5023520500.stp"
 		(offset
 			(xyz 0 3.3 3)
 		)

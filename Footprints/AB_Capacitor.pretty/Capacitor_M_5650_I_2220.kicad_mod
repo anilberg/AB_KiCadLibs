@@ -225,7 +225,7 @@
 		(roundrect_rratio 0.126582)
 		(uuid "3cb8d331-96cb-4dc6-96fe-289263ba48d7")
 	)
-	(model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_2220_5650Metric.wrl"
+	(model "/media/anil/vault/AB_KiCADLibs/3D_Models/Capacitor/CAP2220.stp"
 		(offset
 			(xyz 0 0 0)
 		)

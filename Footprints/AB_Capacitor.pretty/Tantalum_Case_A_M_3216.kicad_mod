@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -73,7 +76,7 @@
 		(uuid "a6b8bba8-d5e3-4f8e-8269-5162bac39272")
 	)
 	(fp_line
-		(start -1.8875 -0.525)
+		(start -1.8875 -0.7)
 		(end -1.8875 -0.825)
 		(stroke
 			(width 0.15)
@@ -84,7 +87,7 @@
 	)
 	(fp_line
 		(start -1.8875 0.825)
-		(end -1.8875 0.525)
+		(end -1.8875 0.7)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -93,7 +96,7 @@
 		(uuid "1b35c966-5101-4112-a6b9-1ea96b75bb09")
 	)
 	(fp_line
-		(start -1.6625 -0.525)
+		(start -1.6625 -0.7)
 		(end -1.6625 -0.825)
 		(stroke
 			(width 0.15)
@@ -104,7 +107,7 @@
 	)
 	(fp_line
 		(start -1.6625 0.825)
-		(end -1.6625 0.525)
+		(end -1.6625 0.7)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -113,7 +116,7 @@
 		(uuid "49e02521-9edc-4b50-9f90-dfb23505626f")
 	)
 	(fp_line
-		(start 1.7375 -0.525)
+		(start 1.7375 -0.7)
 		(end 1.7375 -0.825)
 		(stroke
 			(width 0.15)
@@ -123,7 +126,7 @@
 		(uuid "6b65feeb-faac-483d-9a80-49e3ce8e8a82")
 	)
 	(fp_line
-		(start 1.7375 0.525)
+		(start 1.7375 0.7)
 		(end 1.7375 0.825)
 		(stroke
 			(width 0.15)
@@ -223,21 +226,21 @@
 		(uuid "47712fbe-360a-4ce1-b5e1-6d2d55ddeb89")
 	)
 	(pad "1" smd roundrect
-		(at -1.0125 0)
-		(size 1 1.2)
+		(at -1.3 0)
+		(size 1.5 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "ade49cb6-b240-4f00-9979-2ee1e91882c5")
 	)
 	(pad "2" smd roundrect
-		(at 1.0875 0)
-		(size 1 1.2)
+		(at 1.3 0)
+		(size 1.5 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "ade49cb6-b240-4f00-9979-2ee1e91882c5")
 	)
-	(model "/media/anil/anil/KiCad/3D_Models/Capacitor/A 3216-18.step"
+	(model "/media/anil/vault/AB_KiCADLibs/3D_Models/Capacitor/Case-A_3216-18.step"
 		(offset
 			(xyz 0 0 0)
 		)
