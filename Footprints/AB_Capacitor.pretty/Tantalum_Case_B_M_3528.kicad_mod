@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -197,7 +200,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "ade49cb6-b240-4f00-9979-2ee1e91882c5")
 	)
-	(model "D:/KiCad/3D_Models/Capacitor/B 3528-21.step"
+	(model "/media/anil/vault/AB_KiCADLibs/3D_Models/Capacitor/Case-B_3528-21.step"
 		(offset
 			(xyz 0 0 0)
 		)

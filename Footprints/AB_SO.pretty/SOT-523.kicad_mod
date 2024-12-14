@@ -178,7 +178,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b119f0c8-2364-4020-aabd-f01b47d0c559")
 	)
-	(model "${KICAD_ANIL_LIBS}/3D-Models/SOIC/SOT-523.STEP"
+	(model "/media/anil/vault/AB_KiCADLibs/3D_Models/SO/SOT-523.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
