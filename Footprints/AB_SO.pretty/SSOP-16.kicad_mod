@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -3.4 0 90)
+		(at -3.8 0 90)
 		(layer "F.SilkS")
 		(uuid "a0a2213b-f818-4ebf-9f71-530e6c35ee57")
 		(effects
@@ -63,8 +63,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.7275 -1.8)
-		(end 2.7275 -1.8)
+		(start -3.2 -1.8)
+		(end 3.1 -1.8)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -73,8 +73,8 @@
 		(uuid "b93dc9b6-9808-43e1-a0a7-5ee19fdb84a1")
 	)
 	(fp_line
-		(start -2.7275 1)
-		(end -2.7275 -1.8)
+		(start -3.2 1.8)
+		(end -3.2 -1.8)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -83,18 +83,8 @@
 		(uuid "16b9c25e-3be5-4f75-8292-cbdea6d10d44")
 	)
 	(fp_line
-		(start -1.9275 1.8)
-		(end -2.7275 1)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "5330d191-d776-4c2d-9e07-98af2109b1a4")
-	)
-	(fp_line
-		(start 2.7275 -1.8)
-		(end 2.7275 1.8)
+		(start 3.1 -1.8)
+		(end 3.1 1.8)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -103,14 +93,26 @@
 		(uuid "ec24a281-62b2-410a-adb8-0e34743e8eec")
 	)
 	(fp_line
-		(start 2.7275 1.8)
-		(end -1.9275 1.8)
+		(start 3.1 1.8)
+		(end -3.2 1.8)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "c8a0cfa6-b5e2-485a-99e3-e54f0c07d536")
+	)
+	(fp_poly
+		(pts
+			(xy -2.6 2.7) (xy -2.9 2.4) (xy -2.9 3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "84a84b59-1aa0-4525-a624-0b495eb82655")
 	)
 	(fp_line
 		(start -2.68 -3.75)
@@ -327,7 +329,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "a9e1fb53-35f0-472d-bc5a-b8977e4946c8")
 	)
-	(model "${AB_LIB_DIR}/3D_Models/SO/SSOP16L-150-0.64.STEP"
+	(model "${AB_LIB_DIR}/3D_Models/SO/SSOP-16L.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
