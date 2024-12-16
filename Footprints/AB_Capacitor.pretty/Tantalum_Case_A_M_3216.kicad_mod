@@ -240,7 +240,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "ade49cb6-b240-4f00-9979-2ee1e91882c5")
 	)
-	(model "/media/anil/vault/AB_KiCADLibs/3D_Models/Capacitor/Case-A_3216-18.step"
+	(model "${AB_LIB_DIR}/3D_Models/Capacitor/Case-A_3216-18.step"
 		(offset
 			(xyz 0 0 0)
 		)

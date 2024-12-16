@@ -217,7 +217,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "bda5a2d2-b3f7-4739-a2e5-75f8ff1f6b5c")
 	)
-	(model "/media/anil/vault/AB_KiCADLibs/3D_Models/SO/VSSOP-10.step"
+	(model "${AB_LIB_DIR}/3D_Models/SO/VSSOP-10.step"
 		(offset
 			(xyz 0 0 0)
 		)

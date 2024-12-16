@@ -219,7 +219,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "1953332d-c8b0-4ef0-b189-15db679051a3")
 	)
-	(model "/media/anil/vault/AB_KiCADLibs/3D_Models/SO/WSON6-3x3mm.STEP"
+	(model "${AB_LIB_DIR}/3D_Models/SO/WSON6-3x3mm.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
