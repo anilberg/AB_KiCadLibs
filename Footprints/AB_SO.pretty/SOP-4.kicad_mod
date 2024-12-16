@@ -4,24 +4,24 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -3.17 0 90)
+		(at -2.9 0 90)
 		(layer "F.SilkS")
 		(uuid "c20b8d7e-578d-4d57-add3-9e5f07a8dcb9")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 		)
 	)
-	(property "Value" ""
-		(at 0 0 0)
+	(property "Value" "Val**"
+		(at 0 -0.6 0)
 		(layer "F.Fab")
 		(uuid "243381b7-19a1-424b-bf3a-e5ddb54f31ba")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.06)
 			)
 		)
 	)
@@ -73,7 +73,7 @@
 		(uuid "661590c7-02a7-4961-8e06-9701bb762dd3")
 	)
 	(fp_line
-		(start -2.17 1.1)
+		(start -2.17 1.9)
 		(end -2.17 -1.9)
 		(stroke
 			(width 0.12)
@@ -81,16 +81,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "ae88acbf-60bd-4df5-838b-c0c76c13989d")
-	)
-	(fp_line
-		(start -1.37 1.9)
-		(end -2.17 1.1)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "5db2b28e-72f6-4c9c-8cf8-4450a6a4179c")
 	)
 	(fp_line
 		(start 2.17 -1.9)
@@ -104,13 +94,25 @@
 	)
 	(fp_line
 		(start 2.17 1.9)
-		(end -1.37 1.9)
+		(end -2.17 1.9)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "fdfc177a-1521-4954-bc6f-9df21fbadf49")
+	)
+	(fp_poly
+		(pts
+			(xy -1.9 3) (xy -2.4 2.5) (xy -2.4 3.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "eac7469a-7aed-4eba-8669-6dc97f747dac")
 	)
 	(fp_line
 		(start -1.92 -3.85)
@@ -173,6 +175,19 @@
 		(fill solid)
 		(layer "F.Fab")
 		(uuid "301eb242-e5d7-431f-9c04-87918e9b26ab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.2 0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "53ee09e5-a4e8-4aee-a860-a38f067242b6")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "1" smd rect
 		(at -1.27 3)

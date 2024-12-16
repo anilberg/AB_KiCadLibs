@@ -4,24 +4,24 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -3.705 0)
+		(at 0 -3.4 0)
 		(layer "F.SilkS")
 		(uuid "ade43453-88fc-4254-bfbc-f2ff5d3f935b")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 		)
 	)
-	(property "Value" ""
-		(at 0 0 -90)
+	(property "Value" "Val**"
+		(at 0 -1.8 0)
 		(layer "F.Fab")
 		(uuid "2535c7a5-f175-4fee-b5cb-cc8d16dd9194")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.06)
 			)
 		)
 	)
@@ -63,28 +63,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.5 -1.905)
-		(end -0.7 -2.705)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "b4a3fd9f-3323-4da8-8f35-edeb3c6bc414")
-	)
-	(fp_line
-		(start -1.5 2.705)
-		(end -1.5 -1.905)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "75f8d59d-8fba-4e8e-b37f-df1bf0885511")
-	)
-	(fp_line
-		(start -0.7 -2.705)
-		(end 1.5 -2.705)
+		(start -1.5 -2.7)
+		(end 1.5 -2.7)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -93,7 +73,17 @@
 		(uuid "80830240-e8d0-4fa8-95c6-4ab8d9b308ae")
 	)
 	(fp_line
-		(start 1.5 -2.705)
+		(start -1.5 2.705)
+		(end -1.5 -2.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "75f8d59d-8fba-4e8e-b37f-df1bf0885511")
+	)
+	(fp_line
+		(start 1.5 -2.7)
 		(end 1.5 2.705)
 		(stroke
 			(width 0.12)
@@ -111,6 +101,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "d3053d61-73cd-4519-8b4a-b5bac3fff12b")
+	)
+	(fp_poly
+		(pts
+			(xy -3.2 -2.4) (xy -2.8 -2.8) (xy -3.6 -2.8)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "f8288fc9-8aec-4a89-9029-beea63d0f4bb")
 	)
 	(fp_line
 		(start -4.75 -2.46)
@@ -173,6 +175,19 @@
 		(fill solid)
 		(layer "F.Fab")
 		(uuid "28eef20a-eeae-47be-ba81-729f128633f3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.1 2.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "49b7e6cf-4937-4f56-9628-1ef36d9bb605")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "1" smd oval
 		(at -3.25 -1.905 270)
