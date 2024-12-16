@@ -191,15 +191,4 @@
 		(thermal_bridge_angle 45)
 		(uuid "0411e90d-d54b-452b-b2cf-7d0ed051c738")
 	)
-	(model "C:/anil/3d-models/Crystal/12MHz.STEP"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 -90)
-		)
-	)
 )
