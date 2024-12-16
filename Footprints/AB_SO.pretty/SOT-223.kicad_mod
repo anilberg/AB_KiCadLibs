@@ -132,7 +132,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "5660d17d-d6a1-4015-bee2-7f76c9505659")
 	)
-	(model "${AB_LIB_DIR}/3D_Models/SOT/SOT-223.STEP"
+	(model "${AB_LIB_DIR}/3D_Models/SO/SOT-223.STEP"
 		(offset
 			(xyz -3.25 -1.6 0)
 		)
