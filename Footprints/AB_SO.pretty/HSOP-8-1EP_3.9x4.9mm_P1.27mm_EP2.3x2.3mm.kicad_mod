@@ -6,12 +6,12 @@
 	(descr "HSOP, 8 Pin (https://www.st.com/resource/en/datasheet/l7980.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "HSOP SO")
 	(property "Reference" "REF**"
-		(at 0 -3.4 0)
+		(at 0 -3.3 0)
 		(layer "F.SilkS")
 		(uuid "f28d8bf0-622c-44bd-8f7a-682e5a8149f6")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 		)
@@ -65,8 +65,18 @@
 	)
 	(attr smd)
 	(fp_line
+		(start -1.4 2.56)
+		(end -1.4 -2.56)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0b2aab0a-5ae7-43d8-977f-49bbdf7e15b2")
+	)
+	(fp_line
 		(start 0 -2.56)
-		(end -3.45 -2.56)
+		(end -1.4 -2.56)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -76,7 +86,7 @@
 	)
 	(fp_line
 		(start 0 -2.56)
-		(end 1.95 -2.56)
+		(end 1.4 -2.56)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -86,7 +96,7 @@
 	)
 	(fp_line
 		(start 0 2.56)
-		(end -1.95 2.56)
+		(end -1.4 2.56)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -96,13 +106,35 @@
 	)
 	(fp_line
 		(start 0 2.56)
-		(end 1.95 2.56)
+		(end 1.4 2.56)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "f14168bd-2dbc-462f-ba54-8d51476c58d7")
+	)
+	(fp_line
+		(start 1.4 -2.56)
+		(end 1.4 2.56)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b0117e06-25f8-4b2b-b8f9-57cf13158bdb")
+	)
+	(fp_poly
+		(pts
+			(xy -2.5 -2.3) (xy -2.1 -2.7) (xy -2.9 -2.7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "1d8a197f-ed63-43a0-8c46-ff6695942aa0")
 	)
 	(fp_line
 		(start -3.7 -2.7)
