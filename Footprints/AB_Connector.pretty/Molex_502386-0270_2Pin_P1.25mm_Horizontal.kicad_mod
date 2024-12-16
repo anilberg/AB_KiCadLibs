@@ -296,7 +296,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "0b9829e1-f19e-4afb-8f74-72b1186a9a07")
 	)
-	(model "C:/anil/3d-models/Connector/Molex_533980271.stp"
+	(model "${AB_LIB_DIR}/3D_Models/Connectors/Molex_533980271.stp"
 		(offset
 			(xyz 0 -2 5.65)
 		)

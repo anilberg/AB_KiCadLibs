@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -544,7 +547,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "c7eb36a0-c297-47f0-93e4-e87be765970d")
 	)
-	(model "/media/anil/vault/KiCad/3D_Models/DevKits/YAAJ_BluePill.step"
+	(model "${AB_LIB_DIR}/3D_Models/DevKits/STM32_BluePill.step"
 		(offset
 			(xyz 24.15 7.75 0)
 		)
