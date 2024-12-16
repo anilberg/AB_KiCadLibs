@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -550,7 +553,7 @@
 		(remove_unused_layers no)
 		(uuid "5eab60a3-14b5-49ed-b5dd-2deda9172bcc")
 	)
-	(model "/media/anil/anil/KiCad/3D_Models/QFN/VQFN-24.STEP"
+	(model "${AB_LIB_DIR}/3D_Models/QF/VQFN-24.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
