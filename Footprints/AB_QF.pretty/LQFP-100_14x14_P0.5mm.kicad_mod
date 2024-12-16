@@ -944,9 +944,9 @@
 		(thermal_bridge_angle 45)
 		(uuid "238cd47f-4f06-4778-8940-03f4ba705790")
 	)
-	(model "${AB_LIB_DIR}/3D_Models/QF/LQFP-100.STEP"
+	(model "${AB_LIB_DIR}/3D_Models/QF/LQFP-100_0.5P.STEP"
 		(offset
-			(xyz -7 7 0.1)
+			(xyz 0 0 0.92)
 		)
 		(scale
 			(xyz 1 1 1)
