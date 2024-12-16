@@ -6,24 +6,24 @@
 	(descr "TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/")
 	(tags "DPAK TO-252 DPAK-5 TO-252-5")
 	(property "Reference" "REF**"
-		(at 0 -4.5 0)
+		(at 0 -4.1 0)
 		(layer "F.SilkS")
 		(uuid "49c9b122-bbab-4757-b172-a4441a185be0")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 		)
 	)
-	(property "Value" "TO-252-5_TabPin3"
-		(at 0 4.5 0)
+	(property "Value" "Val**"
+		(at 0 3.9 0)
 		(layer "F.Fab")
 		(uuid "177eeff9-806b-4141-88f3-38dca312b802")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.06)
 			)
 		)
 	)
@@ -160,106 +160,6 @@
 		(uuid "0731cbdb-b7dd-4579-b3d8-618713733aca")
 	)
 	(fp_line
-		(start -5.81 -2.58)
-		(end -5.81 -1.98)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "7380d898-7a07-4e9e-b27e-26f5c36580ac")
-	)
-	(fp_line
-		(start -5.81 -1.98)
-		(end -3.11 -1.98)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "0e75878a-7cb9-4859-9d27-697533428c33")
-	)
-	(fp_line
-		(start -5.81 -1.44)
-		(end -5.81 -0.84)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "faff18e9-89c5-48b9-98a7-05001e18954d")
-	)
-	(fp_line
-		(start -5.81 -0.84)
-		(end -3.11 -0.84)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "3728c39e-8ffa-4ce6-a583-78324d989a3b")
-	)
-	(fp_line
-		(start -5.81 -0.3)
-		(end -5.81 0.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "f5cb017e-54f5-4a82-969d-b27774bede06")
-	)
-	(fp_line
-		(start -5.81 0.3)
-		(end -3.11 0.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "0b58fd32-a264-4946-9515-d3d76a7db707")
-	)
-	(fp_line
-		(start -5.81 0.84)
-		(end -5.81 1.44)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "666c18b2-09e2-41e5-abd2-017a68255b1c")
-	)
-	(fp_line
-		(start -5.81 1.44)
-		(end -3.11 1.44)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "fc5740d7-44ed-4887-8202-3fcb2eb42a9c")
-	)
-	(fp_line
-		(start -5.81 1.98)
-		(end -5.81 2.58)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "fd3c80b2-d098-47d0-8209-9b34a2cd0719")
-	)
-	(fp_line
-		(start -5.81 2.58)
-		(end -3.11 2.58)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "2f0ab1ae-239b-4cb8-b58a-724f4fa91a85")
-	)
-	(fp_line
 		(start -3.11 -2.25)
 		(end -2.11 -3.25)
 		(stroke
@@ -270,46 +170,6 @@
 		(uuid "01a0d313-ac16-4bbc-b5b3-5f3379810fd0")
 	)
 	(fp_line
-		(start -3.11 -1.44)
-		(end -5.81 -1.44)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "b0fe8490-8c6b-4769-91a6-9e2136ad0833")
-	)
-	(fp_line
-		(start -3.11 -0.3)
-		(end -5.81 -0.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "d447f3e8-7494-4d26-a717-930e4fa37723")
-	)
-	(fp_line
-		(start -3.11 0.84)
-		(end -5.81 0.84)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "034b2675-f500-40a2-b3ee-6fed9d15d321")
-	)
-	(fp_line
-		(start -3.11 1.98)
-		(end -5.81 1.98)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "ddecfff7-0c16-4d4e-bb50-9ce25d4c7c77")
-	)
-	(fp_line
 		(start -3.11 3.25)
 		(end -3.11 -2.25)
 		(stroke
@@ -318,16 +178,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "086f97c6-3fc3-4eb2-8e4f-77cc751c1b50")
-	)
-	(fp_line
-		(start -2.78 -2.58)
-		(end -5.81 -2.58)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "edab2ea8-2f04-4f5e-8179-525f9bec56bb")
 	)
 	(fp_line
 		(start -2.11 -3.25)
@@ -390,13 +240,13 @@
 		(uuid "95344f7a-c445-47d9-926a-8eedb2edb01c")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 4.6 0)
 		(layer "F.Fab")
 		(uuid "4a6eb90d-6d14-43f9-945e-91c43dfeb903")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.06)
 			)
 		)
 	)
@@ -470,7 +320,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "4f774735-c484-4438-98ce-da94d70822bf")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-252-5_TabPin3.wrl"
+	(model "${AB_LIB_DIR}/3D_Models/TO/TO-252-5_TabPin3.step"
 		(offset
 			(xyz 0 0 0)
 		)
