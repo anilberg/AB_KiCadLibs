@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "SOT-523")
 	(property "Reference" "REF**"
-		(at 0 -1.4 0)
+		(at 0 -1.5 0)
 		(layer "F.SilkS")
 		(uuid "548ec6c8-2777-4320-ae47-63b85e7cf223")
 		(effects
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Val**"
-		(at 0.8 0 90)
+		(at 0.1 0 90)
 		(layer "F.Fab")
 		(uuid "11b053aa-fdfd-4e44-bed7-29c136b1596b")
 		(effects
@@ -148,7 +148,7 @@
 		(uuid "8f3e2063-9cf7-4291-8321-9d633933d66e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -2.1 1.4 0)
+		(at -2.1 1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e1c5bded-d3ba-4ba9-bf3f-07688013c40d")
