@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Val**"
-		(at 0 0 0)
+		(at 0 -1.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e603c6e5-221e-4291-b908-6e4f84f88c25")
@@ -139,8 +139,8 @@
 		(uuid "21dd5578-f93a-4b73-ac39-bc7e14f044d7")
 	)
 	(fp_circle
-		(center -0.9 1.5276)
-		(end -0.8 1.5276)
+		(center -1.2 1.4)
+		(end -1 1.4)
 		(stroke
 			(width 0.1)
 			(type solid)
