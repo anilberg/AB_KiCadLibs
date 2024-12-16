@@ -303,7 +303,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 6.35 0 180)
 				(length 2.54)
 				(name "Y1"
@@ -385,7 +385,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 6.35 0 180)
 				(length 2.54)
 				(name "Y2"
@@ -449,7 +449,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 6.35 0 180)
 				(length 2.54)
 				(name "Y3"
@@ -513,7 +513,7 @@
 			)
 		)
 		(symbol "MC74ACT08DR2G_4_0"
-			(pin output line
+			(pin passive line
 				(at 6.35 0 180)
 				(length 2.54)
 				(name "Y4"
