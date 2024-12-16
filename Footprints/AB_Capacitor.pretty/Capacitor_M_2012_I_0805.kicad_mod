@@ -127,6 +127,19 @@
 		(layer "F.Fab")
 		(uuid "ff0a88ca-1682-4399-ba92-204dec274d51")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -2.2 0.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7ebbf271-d78d-4e1f-b1e5-2d469ae4970f")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+			(justify left bottom)
+		)
+	)
 	(pad "1" smd roundrect
 		(at -1.175 0)
 		(size 1.5 1.5)
@@ -143,15 +156,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "86f4bb6e-da58-435c-98ff-06e34eb31e55")
 	)
-	(model "${AB_LIB_DIR}/3D_Models/Capacitor/Capacitor_M_2012_I_0805.step"
+	(model "${AB_LIB_DIR}/3D_Models/Capacitor/C_I_0805_M_2012.step"
 		(offset
-			(xyz -1 0 0.3)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -90)
+			(xyz 0 0 -180)
 		)
 	)
 )

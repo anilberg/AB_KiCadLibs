@@ -4,24 +4,24 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0.0375 -1.55 0)
+		(at 0 -1.4 0)
 		(layer "F.SilkS")
 		(uuid "db7e1cf7-1599-48a2-ac42-5daa5ca91259")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 		)
 	)
-	(property "Value" "Tantalum_Case_A_M_3216"
-		(at 0 -3.2 0)
+	(property "Value" "Val**"
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "391f165b-aa74-4055-8d6c-dd7fe64c7f59")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.06)
 			)
 		)
 	)
@@ -146,8 +146,8 @@
 		(uuid "5011ebe9-6274-481b-bce7-97fb6c981467")
 	)
 	(fp_line
-		(start -2.0625 -0.975)
-		(end 1.9375 -0.975)
+		(start -2.3 -0.975)
+		(end 2.25 -0.975)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -156,8 +156,8 @@
 		(uuid "5baca191-656e-431b-a9c1-f8dd4b1f0a5f")
 	)
 	(fp_line
-		(start -2.0625 0.975)
-		(end -2.0625 -0.975)
+		(start -2.3 0.975)
+		(end -2.3 -0.975)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -166,8 +166,8 @@
 		(uuid "953bd847-112a-4dd2-b938-7ad6f0ced64a")
 	)
 	(fp_line
-		(start 1.9375 -0.975)
-		(end 1.9375 0.975)
+		(start 2.25 -0.975)
+		(end 2.25 0.975)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -176,8 +176,8 @@
 		(uuid "1770f660-b973-49c6-925c-0609d6ee453c")
 	)
 	(fp_line
-		(start 1.9375 0.975)
-		(end -2.0625 0.975)
+		(start 2.25 0.975)
+		(end -2.3 0.975)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -224,6 +224,19 @@
 		)
 		(layer "F.Fab")
 		(uuid "47712fbe-360a-4ce1-b5e1-6d2d55ddeb89")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.15 1.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "19177c50-39d0-48f6-802a-ab06010a7b67")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "1" smd roundrect
 		(at -1.45 0)

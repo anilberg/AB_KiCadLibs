@@ -151,8 +151,8 @@
 		(uuid "25bb33ad-d267-4305-bd54-d6fa7da4afe0")
 	)
 	(fp_line
-		(start -1.5 -0.55)
-		(end 1.5 -0.55)
+		(start -1.5 -0.6)
+		(end 1.5 -0.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -161,8 +161,8 @@
 		(uuid "1749caa9-5bed-44d8-9a2e-87750c8eb92c")
 	)
 	(fp_line
-		(start -1.5 0.55)
-		(end -1.5 -0.55)
+		(start -1.5 0.6)
+		(end -1.5 -0.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -171,8 +171,8 @@
 		(uuid "eb93b2e9-4baf-43cc-9a93-6d30225855b7")
 	)
 	(fp_line
-		(start 1.5 -0.55)
-		(end 1.5 0.55)
+		(start 1.5 -0.6)
+		(end 1.5 0.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -181,8 +181,8 @@
 		(uuid "f54e0211-58f2-4ba9-a1cb-99c80845902a")
 	)
 	(fp_line
-		(start 1.5 0.55)
-		(end -1.5 0.55)
+		(start 1.5 0.6)
+		(end -1.5 0.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -257,7 +257,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "19cf5c8a-c6e3-4f75-8e14-42c608393222")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+	(model "${AB_LIB_DIR}/3D_Models/Capacitor/C_I_0603_M_1608.step"
 		(offset
 			(xyz 0 0 0)
 		)
