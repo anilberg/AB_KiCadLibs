@@ -6,13 +6,14 @@
 	(descr "Barrel jack connector (5.5 mm outer diameter, 2.05 inner diameter ), https://gct.co/files/drawings/dcj200-10.pdf")
 	(tags "connector barrel jack")
 	(property "Reference" "REF**"
-		(at 0 -2.05 0)
+		(at 0 -3.556 0)
 		(layer "F.SilkS")
 		(uuid "40e37984-3a87-4450-a705-29fea67c90f2")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
+				(size 0.762 0.762)
+				(thickness 0.1524)
+				(bold yes)
 			)
 		)
 	)
@@ -22,8 +23,9 @@
 		(uuid "d5d632c7-f509-43ff-ad57-3e790a30fc00")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.381 0.381)
+				(thickness 0.0635)
+				(bold yes)
 			)
 		)
 	)
@@ -148,8 +150,8 @@
 		(uuid "aaddc35c-3056-49d3-aa39-997272be1cfe")
 	)
 	(fp_line
-		(start -5 -1.5)
-		(end -5 14.2)
+		(start -5.08 -1.651)
+		(end -5.08 14.224)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -158,8 +160,8 @@
 		(uuid "a4339249-b6fa-404e-8513-887be2190bea")
 	)
 	(fp_line
-		(start -5 14.2)
-		(end 5 14.2)
+		(start -5.08 14.224)
+		(end 5.08 14.224)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -168,8 +170,8 @@
 		(uuid "4f298239-b22f-4bdc-85bf-8128263d5eac")
 	)
 	(fp_line
-		(start 5 -1.5)
-		(end -5 -1.5)
+		(start 5.08 -1.651)
+		(end -5.08 -1.651)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -178,8 +180,8 @@
 		(uuid "426f9670-c31d-4b19-9885-d56590a727a5")
 	)
 	(fp_line
-		(start 5 0.3)
-		(end 5 -1.5)
+		(start 5.08 0.254)
+		(end 5.08 -1.651)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -188,8 +190,8 @@
 		(uuid "a76fafad-1dfa-4ea7-a8d7-68034eab9d88")
 	)
 	(fp_line
-		(start 5 14.2)
-		(end 5 5.5)
+		(start 5.08 14.224)
+		(end 5.08 5.461)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -198,8 +200,8 @@
 		(uuid "2ec691d2-7ebb-4fe5-8254-0e29d0ca3b6b")
 	)
 	(fp_line
-		(start 6.3 0.3)
-		(end 5 0.3)
+		(start 6.223 0.254)
+		(end 5.08 0.254)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -208,8 +210,8 @@
 		(uuid "a054118f-3d51-4ff2-9a7c-421d337ffba2")
 	)
 	(fp_line
-		(start 6.3 0.3)
-		(end 6.3 5.5)
+		(start 6.223 0.254)
+		(end 6.223 5.461)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -218,8 +220,8 @@
 		(uuid "e005444a-9fa6-4f3f-a94e-02855b2cfc89")
 	)
 	(fp_line
-		(start 6.3 5.5)
-		(end 5 5.5)
+		(start 6.223 5.461)
+		(end 5.08 5.461)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -276,6 +278,20 @@
 		)
 		(layer "F.Fab")
 		(uuid "6d460301-cb34-49c1-8e69-fe1df7636fc1")
+	)
+	(fp_text user "${VALUE}"
+		(at -2.54 -1.905 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0541b96c-17b6-42a6-b33d-e284dfd92809")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "1" thru_hole rect
 		(at 0 0)
