@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Val**"
-		(at 0 0 0)
+		(at 2.032 0.381 0)
 		(layer "F.Fab")
 		(uuid "17a467e4-2262-4236-9cf0-1e4fb8c7453a")
 		(effects
@@ -68,89 +68,31 @@
 		)
 	)
 	(attr smd)
-	(fp_line
+	(fp_rect
 		(start -1.5 -0.6)
-		(end -1.5 0.6)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "59282771-5960-41b4-9cfc-238ceb0eb475")
-	)
-	(fp_line
-		(start -1.5 -0.6)
-		(end 1.5 -0.6)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7b9bf5b7-55b6-4399-9633-85b3df432454")
-	)
-	(fp_line
-		(start -1.5 0.6)
 		(end 1.5 0.6)
 		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9fcb4493-1f74-410c-95e9-5794ef22e6ba")
-	)
-	(fp_line
-		(start 1.5 -0.6)
-		(end 1.5 0.6)
-		(stroke
-			(width 0.12)
+			(width 0.1143)
 			(type default)
 		)
+		(fill none)
 		(layer "F.SilkS")
-		(uuid "698598cd-cd27-45ef-af78-391671609704")
-	)
-	(fp_line
-		(start -1.651 -0.762)
-		(end 1.651 -0.762)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "1749caa9-5bed-44d8-9a2e-87750c8eb92c")
-	)
-	(fp_line
-		(start -1.651 0.762)
-		(end -1.651 -0.762)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "eb93b2e9-4baf-43cc-9a93-6d30225855b7")
-	)
-	(fp_line
-		(start 1.651 -0.762)
-		(end 1.651 0.762)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "f54e0211-58f2-4ba9-a1cb-99c80845902a")
-	)
-	(fp_line
-		(start 1.651 0.762)
-		(end -1.651 0.762)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "b3d4e64c-a3a9-4604-ab4d-fdf679ecc004")
+		(uuid "072b2196-6558-42a0-b2ca-04c3371db8fb")
 	)
 	(fp_rect
-		(start -1.45 -0.55)
-		(end 1.45 0.55)
+		(start -1.651 -0.762)
+		(end 1.651 0.762)
+		(stroke
+			(width 0.0508)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "4f58b6e3-4b0a-40d6-922d-8a82f7be2574")
+	)
+	(fp_rect
+		(start -1.196 -0.55)
+		(end 1.196 0.55)
 		(stroke
 			(width 0.1016)
 			(type default)
@@ -159,8 +101,19 @@
 		(layer "F.Fab")
 		(uuid "0fed2104-2da8-4690-bcbe-16d0d4666dab")
 	)
+	(fp_rect
+		(start -0.725 -0.55)
+		(end 0.725 0.55)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "efc5232b-0949-4a8a-8c80-4d1e10f9c189")
+	)
 	(fp_text user "${REFERENCE}"
-		(at -2.032 1.143 0)
+		(at 1.27 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f31dc11d-f1fe-4b5f-873f-afa7c514c896")
