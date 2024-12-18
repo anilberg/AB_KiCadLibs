@@ -1383,6 +1383,16 @@
 				(hide yes)
 			)
 		)
+		(property "Basic" "No"
+			(at 0.508 -25.4 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "BSS123_0_1"
 			(circle
 				(center -0.889 0)
