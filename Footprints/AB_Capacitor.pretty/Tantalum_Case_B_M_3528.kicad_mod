@@ -162,7 +162,7 @@
 		(start -2.667 -1.524)
 		(end 2.667 1.524)
 		(stroke
-			(width 0.1)
+			(width 0.1016)
 			(type default)
 		)
 		(fill none)
@@ -173,7 +173,7 @@
 		(start -1.905 -1.524)
 		(end -0.762 1.524)
 		(stroke
-			(width 0.1)
+			(width 0.1016)
 			(type solid)
 		)
 		(fill solid)
