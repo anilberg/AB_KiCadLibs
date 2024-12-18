@@ -1338,7 +1338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AB_SOT:SOT-23-3"
+		(property "Footprint" "AB_SO:SOT-23-3"
 			(at -0.254 -13.462 0)
 			(effects
 				(font
