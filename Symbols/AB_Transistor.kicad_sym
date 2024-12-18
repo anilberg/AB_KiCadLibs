@@ -1321,7 +1321,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
-			(at 5.08 1.27 0)
+			(at 2.54 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1330,7 +1330,7 @@
 			)
 		)
 		(property "Value" "BSS123"
-			(at 5.08 -1.27 0)
+			(at 2.54 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,7 +1339,7 @@
 			)
 		)
 		(property "Footprint" "AB_SOT:SOT-23-3"
-			(at 0 -11.176 0)
+			(at -0.254 -13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,8 +1347,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809211016_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--BSS123_C79015.pdf"
-			(at 0.254 -16.002 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308281514_hongjiacheng-BSS123_C7420338.pdf"
+			(at 0 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,8 +1356,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V 170mA 360mW 3.5Ω@10V 2.8V 1 N-Channel SOT-23 MOSFETs ROHS"
-			(at 0 -13.97 0)
+		(property "Description" "100V 200mA 5Ω@10V,0.2A 350mW 2.5V@250uA 1PCSNChannel SOT-23 MOSFETs ROHS "
+			(at -0.254 -16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,8 +1365,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C79015"
-			(at 0 -18.796 0)
+		(property "LCSC" "C7420338"
+			(at -0.254 -21.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,8 +1374,8 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://jlcpcb.com/partdetail/80152-BSS123/C79015"
-			(at 0 -20.574 0)
+		(property "Link" "https://jlcpcb.com/partdetail/Hongjiacheng-BSS123/C7420338"
+			(at -0.254 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,140 +1384,8 @@
 			)
 		)
 		(symbol "BSS123_0_1"
-			(polyline
-				(pts
-					(xy 0.254 0) (xy -2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.254 1.905) (xy 0.254 -1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.762 -1.27) (xy 0.762 -2.286)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.762 0.508) (xy 0.762 -0.508)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.762 2.286) (xy 0.762 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy 2.54 1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
-				(center 1.651 0)
+				(center -0.889 0)
 				(radius 2.794)
 				(stroke
 					(width 0.254)
@@ -1528,7 +1396,7 @@
 				)
 			)
 			(circle
-				(center 2.54 -1.778)
+				(center 0 -1.778)
 				(radius 0.254)
 				(stroke
 					(width 0)
@@ -1538,8 +1406,140 @@
 					(type outline)
 				)
 			)
+			(polyline
+				(pts
+					(xy -2.286 0) (xy -5.08 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 1.905) (xy -2.286 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -1.27) (xy -1.778 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 0.508) (xy -1.778 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 2.286) (xy -1.778 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -1.778) (xy 0.762 -1.778) (xy 0.762 1.778) (xy -1.778 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0) (xy -0.508 0.381) (xy -0.508 -0.381) (xy -1.524 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0.508) (xy 0.381 0.381) (xy 1.143 0.381) (xy 1.27 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.381) (xy 0.381 -0.254) (xy 1.143 -0.254) (xy 0.762 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
-				(center 2.54 1.778)
+				(center 0 1.778)
 				(radius 0.254)
 				(stroke
 					(width 0)
@@ -1552,7 +1552,7 @@
 		)
 		(symbol "BSS123_1_1"
 			(pin input line
-				(at -5.08 0 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "G"
 					(effects
@@ -1570,7 +1570,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -5.08 90)
+				(at 0 -5.08 90)
 				(length 2.54)
 				(name "S"
 					(effects
@@ -1588,7 +1588,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 5.08 270)
+				(at 0 5.08 270)
 				(length 2.54)
 				(name "D"
 					(effects
