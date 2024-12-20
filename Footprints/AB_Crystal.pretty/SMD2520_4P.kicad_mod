@@ -154,7 +154,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "43b5fd4e-4265-4737-85ae-7439a6374e9d")
 	)
-	(model "/media/anil/vault/AB_KiCADLibs/3D_Models/Crystal/2520-SMD-Crystal Oscillator.STEP"
+	(model "${AB_LIB_DIR}/3D_Models/Crystal/2520-SMD-Crystal Oscillator.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
