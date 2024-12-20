@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AB_SOT:SOT-25"
+		(property "Footprint" "AB_SO:SOT-25"
 			(at -0.254 -15.748 0)
 			(effects
 				(font
