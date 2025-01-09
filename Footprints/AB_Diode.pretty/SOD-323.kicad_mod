@@ -6,14 +6,13 @@
 	(descr "SOD-323")
 	(tags "SOD-323")
 	(property "Reference" "REF**"
-		(at 0 -1.4 0)
+		(at 0 -1.524 0)
 		(layer "F.SilkS")
 		(uuid "94993f84-0404-43bc-90c3-78516df59947")
 		(effects
 			(font
-				(size 0.762 0.762)
-				(thickness 0.1524)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.16)
 			)
 		)
 	)
