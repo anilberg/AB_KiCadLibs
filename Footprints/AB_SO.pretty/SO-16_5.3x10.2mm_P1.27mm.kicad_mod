@@ -6,13 +6,13 @@
 	(descr "SO, 16 Pin (https://www.ti.com/lit/ml/msop002a/msop002a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "SO SO")
 	(property "Reference" "REF**"
-		(at 0 -6 0)
+		(at 0 -5.842 0)
 		(layer "F.SilkS")
 		(uuid "2bb46fad-0433-4d9f-9aa4-b030e47a4814")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
+				(size 1 1)
+				(thickness 0.16)
 			)
 		)
 	)
