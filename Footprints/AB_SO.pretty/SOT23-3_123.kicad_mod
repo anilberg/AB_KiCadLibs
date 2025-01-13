@@ -5,13 +5,13 @@
 	(layer "F.Cu")
 	(tags "SOT TO_SOT_SMD")
 	(property "Reference" "REF**"
-		(at 1.1 -2.1 0)
+		(at 2.6924 0 -90)
 		(layer "F.SilkS")
 		(uuid "3d8dd91a-12ee-41c5-8179-2de6f38feed1")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
+				(size 1 1)
+				(thickness 0.16)
 			)
 		)
 	)
