@@ -14,14 +14,14 @@
 			)
 		)
 	)
-	(property "Value" "Inductor_SRI1209-101M"
-		(at 0 -4.2 0)
+	(property "Value" "VAL**"
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "07a74050-3e09-42c3-957e-14d6edc3f30f")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.06)
 			)
 		)
 	)
@@ -151,6 +151,18 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "e9fae546-311d-4b4f-905f-3dafebb5b31e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.7112 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "48dc86f9-c771-4865-8e11-79b001bc9b95")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
 	)
 	(pad "1" smd rect
 		(at -4.9 0)
