@@ -6,14 +6,13 @@
 	(descr "MSOP, 10 Pin (https://www.jedec.org/system/files/docs/mo-187F.pdf variant BA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "MSOP SO")
 	(property "Reference" "REF**"
-		(at 0 -2.1 0)
+		(at 0.3556 -2.1844 0)
 		(layer "F.SilkS")
 		(uuid "64e2991e-b1d5-4182-950a-0ec9cb82fbf1")
 		(effects
 			(font
-				(size 0.762 0.762)
-				(thickness 0.1524)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.16)
 			)
 		)
 	)
