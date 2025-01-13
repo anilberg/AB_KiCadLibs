@@ -12,18 +12,18 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.16)
 			)
 		)
 	)
-	(property "Value" "QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
-		(at 0 3.33 0)
+	(property "Value" "Val**"
+		(at 0 3.0988 0)
 		(layer "F.Fab")
 		(uuid "e8b5a935-9f14-4e23-ba76-3204f3be5af8")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.06)
 			)
 		)
 	)
@@ -250,13 +250,13 @@
 		(uuid "68299d22-3e75-433c-b155-70ba3917c2fd")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 2.4384 0)
 		(layer "F.Fab")
 		(uuid "dded31e7-5ae8-49a0-8805-df3b0afb5040")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.06)
 			)
 		)
 	)
