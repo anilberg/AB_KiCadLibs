@@ -4,24 +4,24 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 3.5 0)
+		(at 0 3.302 0)
 		(layer "F.SilkS")
 		(uuid "9f27c07e-0884-4003-abdc-5dbf556acb31")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.16)
 			)
 		)
 	)
-	(property "Value" "General-Inductor"
-		(at 0 -3.5 0)
+	(property "Value" "Val**"
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "f7be1346-380c-4fd2-beb1-8e8ed21eb0b9")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.06)
 			)
 		)
 	)
@@ -141,6 +141,18 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "96a75b4b-1bef-48b8-9179-d3f887bc8bfa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.6096 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "45a74746-675d-4b3a-8882-29836be5fa5c")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
 	)
 	(pad "1" smd rect
 		(at -1.9 0)
