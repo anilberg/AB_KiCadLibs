@@ -1,28 +1,139 @@
-(footprint "Undefined Capacitor" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (fp_text reference "REF**" (at 0 2.25) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 416950d3-1163-4feb-8c0c-857f5b2b39bd)
-  )
-  (fp_text value "Undefined Capacitor" (at 0 -2.25) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 9be0d17e-eba4-4af4-850f-152a6ef681dd)
-  )
-  (fp_line (start -3.8 -1.262) (end -3.8 1.262)
-    (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp 192130e4-3e3e-41db-9fa8-b818588b0732))
-  (fp_line (start -3.8 -1.262) (end 3.8 -1.262)
-    (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp 2c40ddac-d0e0-458a-85d0-31cdd518947a))
-  (fp_line (start -3.8 1.262) (end 3.8 1.262)
-    (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp b324f4d3-5b23-48fc-8988-566214afe716))
-  (fp_line (start 3.8 -1.262) (end 3.8 1.262)
-    (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp 29935d3e-df8e-4c4a-9f8f-4c2baa861951))
-  (pad "1" thru_hole roundrect (at -2.54 0) (size 3 1.7) (drill 1 (offset 0.5 0)) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25)
-    (thermal_bridge_angle 45) (tstamp c6fb0c11-4928-4134-b8ae-5f5036edfe15))
-  (pad "2" thru_hole roundrect (at 2.54 0 180) (size 3 1.7) (drill 1 (offset 0.5 0)) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25)
-    (thermal_bridge_angle 45) (tstamp 0b444b99-1050-4c58-b852-3ec3206ec3ac))
-  (model "C:/anil/3d-models/Capacitor/Capacitor_M_2012_I_0805.step"
-    (offset (xyz -1 0 0.3))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
-  )
+(footprint "Undefined Capacitor"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.25 0)
+		(layer "F.SilkS")
+		(uuid "416950d3-1163-4feb-8c0c-857f5b2b39bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Undefined Capacitor"
+		(at 0 -2.25 0)
+		(layer "F.Fab")
+		(uuid "9be0d17e-eba4-4af4-850f-152a6ef681dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55dc8a37-6542-469c-8ee3-5d8b3e416e98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c41e1ce2-1433-4727-a825-2af7cb4fe67f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9a2e70a-c890-4ce1-8274-59116770bfa7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.8 -1.262)
+		(end -3.8 1.262)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "192130e4-3e3e-41db-9fa8-b818588b0732")
+	)
+	(fp_line
+		(start -3.8 -1.262)
+		(end 3.8 -1.262)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2c40ddac-d0e0-458a-85d0-31cdd518947a")
+	)
+	(fp_line
+		(start -3.8 1.262)
+		(end 3.8 1.262)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b324f4d3-5b23-48fc-8988-566214afe716")
+	)
+	(fp_line
+		(start 3.8 -1.262)
+		(end 3.8 1.262)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "29935d3e-df8e-4c4a-9f8f-4c2baa861951")
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.54 0)
+		(size 3 1.7)
+		(drill 1
+			(offset 0.5 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "c6fb0c11-4928-4134-b8ae-5f5036edfe15")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2.54 0 180)
+		(size 3 1.7)
+		(drill 1
+			(offset 0.5 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0b444b99-1050-4c58-b852-3ec3206ec3ac")
+	)
+	(model "C:/anil/3d-models/Capacitor/Capacitor_M_2012_I_0805.step"
+		(offset
+			(xyz -1 0 0.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )
