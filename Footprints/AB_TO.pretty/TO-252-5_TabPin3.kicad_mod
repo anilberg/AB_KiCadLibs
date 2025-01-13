@@ -6,13 +6,13 @@
 	(descr "TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/")
 	(tags "DPAK TO-252 DPAK-5 TO-252-5")
 	(property "Reference" "REF**"
-		(at 0 -4.1 0)
+		(at 0 -4.064 0)
 		(layer "F.SilkS")
 		(uuid "49c9b122-bbab-4757-b172-a4441a185be0")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
+				(size 1 1)
+				(thickness 0.16)
 			)
 		)
 	)
