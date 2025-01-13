@@ -5,13 +5,13 @@
 	(layer "F.Cu")
 	(tags "LCD Screen")
 	(property "Reference" "REF**"
-		(at -38 -20 180)
+		(at -38 -19.7104 180)
 		(layer "F.SilkS")
 		(uuid "ab9cd3e2-394d-4fc7-a195-d91a24b4b000")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
+				(size 1 1)
+				(thickness 0.16)
 			)
 		)
 	)
