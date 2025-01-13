@@ -5,13 +5,13 @@
 	(layer "F.Cu")
 	(tags "capacitor handsolder")
 	(property "Reference" "REF**"
-		(at 0 -1.7 0)
+		(at 0 -1.778 0)
 		(layer "F.SilkS")
 		(uuid "7c6fa494-4ebb-4d4f-8a6f-0ab657b151f6")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
+				(size 1 1)
+				(thickness 0.16)
 			)
 		)
 	)
