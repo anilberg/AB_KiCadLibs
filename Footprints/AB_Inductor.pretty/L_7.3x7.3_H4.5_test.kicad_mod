@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "L_7.3x7.3_H4.5_test"
+	(property "Value" "Val**"
 		(at 0 4.45 0)
 		(layer "F.Fab")
 		(uuid "bc5c38f3-9362-45e5-b8ea-c47fe01fd18b")
