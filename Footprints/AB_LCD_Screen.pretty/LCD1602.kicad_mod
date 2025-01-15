@@ -351,7 +351,7 @@
 	)
 	(model "${AB_LIB_DIR}/3D_Models/Pin_Header/Pinheader_Male_01x16.stp"
 		(offset
-			(xyz -30.8 16.2 3)
+			(xyz -30.8 16.2 5)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -362,7 +362,7 @@
 	)
 	(model "${AB_LIB_DIR}/3D_Models/LCD_Screen/LCD1602_Winstar-WH1602B.stp"
 		(offset
-			(xyz 1.2 0.2 2.5)
+			(xyz 1.2 0.2 4.5)
 		)
 		(scale
 			(xyz 1 1 1)
