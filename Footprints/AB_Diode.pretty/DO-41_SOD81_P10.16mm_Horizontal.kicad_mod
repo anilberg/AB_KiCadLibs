@@ -193,7 +193,7 @@
 	)
 	(model "${AB_LIB_DIR}/3D_Models/Diode/D_DO-41_SOD81_P10.16mm_Horizontal.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -5 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
