@@ -593,7 +593,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -2.54 15.24 270)
 				(length 2.54)
 				(name "VCC"
