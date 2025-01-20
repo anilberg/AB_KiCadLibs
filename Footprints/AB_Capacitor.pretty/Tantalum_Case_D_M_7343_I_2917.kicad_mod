@@ -9,9 +9,8 @@
 		(uuid "db7e1cf7-1599-48a2-ac42-5daa5ca91259")
 		(effects
 			(font
-				(size 0.762 0.762)
-				(thickness 0.1524)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.16)
 			)
 		)
 	)
