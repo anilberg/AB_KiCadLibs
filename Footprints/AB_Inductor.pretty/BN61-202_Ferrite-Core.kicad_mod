@@ -152,4 +152,15 @@
 		(remove_unused_layers no)
 		(uuid "be452414-bcbe-46ca-9d1a-a082bc924f45")
 	)
+	(model "${AB_LIB_DIR}/3D_Models/Toroid_Core/BN-61-202.STEP"
+		(offset
+			(xyz 43 -7.3 28)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
 )
