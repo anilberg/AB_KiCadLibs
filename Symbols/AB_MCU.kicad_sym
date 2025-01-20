@@ -2144,7 +2144,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 10.16 68.58 270)
 				(length 2.54)
 				(name "VREF+"
@@ -2162,7 +2162,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 12.7 68.58 270)
 				(length 2.54)
 				(name "VDDA"
