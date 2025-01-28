@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Val**"
-		(at 0 1.25 0)
+		(at 0 2.032 0)
 		(layer "F.Fab")
 		(uuid "12459980-93ec-4d14-a5d8-25465bd8b01f")
 		(effects
@@ -246,6 +246,18 @@
 		)
 		(layer "F.Fab")
 		(uuid "3ea8d381-2884-4493-a631-0d00c072c3e5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "69e84afd-33e7-4881-94ab-ff5d568a2ed6")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
 	)
 	(pad "1" smd roundrect
 		(at -1.85 0)
