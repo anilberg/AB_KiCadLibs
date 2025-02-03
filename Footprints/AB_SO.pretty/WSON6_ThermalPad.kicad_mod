@@ -210,12 +210,10 @@
 		(thermal_bridge_angle 45)
 		(uuid "5ca36d91-2959-4c53-ac88-c57456d510fd")
 	)
-	(pad "7" thru_hole rect
+	(pad "7" smd rect
 		(at 0 0)
-		(size 2.1 1.6)
-		(drill 1.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 3 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "1953332d-c8b0-4ef0-b189-15db679051a3")
 	)
