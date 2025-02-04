@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "resistor handsolder")
 	(property "Reference" "REF**"
-		(at 0 -1.25 0)
+		(at 0 -1.3 0)
 		(layer "F.SilkS")
 		(uuid "81f2022a-d679-43c4-91b2-73d62812055d")
 		(effects
@@ -68,8 +68,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -1.5 -0.6)
-		(end 1.5 0.6)
+		(start -1.58 -0.72)
+		(end 1.58 0.71)
 		(stroke
 			(width 0.1143)
 			(type default)
@@ -79,8 +79,8 @@
 		(uuid "072b2196-6558-42a0-b2ca-04c3371db8fb")
 	)
 	(fp_rect
-		(start -1.651 -0.762)
-		(end 1.651 0.762)
+		(start -1.611 -0.752)
+		(end 1.611 0.752)
 		(stroke
 			(width 0.0508)
 			(type default)
