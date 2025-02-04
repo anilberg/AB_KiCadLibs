@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -1.524 0)
+		(at 0 -1.64 0)
 		(layer "F.SilkS")
 		(uuid "db7e1cf7-1599-48a2-ac42-5daa5ca91259")
 		(effects
@@ -67,8 +67,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.032 -0.889)
-		(end 1.905 -0.889)
+		(start -2.032 -0.987)
+		(end 1.905 -0.987)
 		(stroke
 			(width 0.1524)
 			(type default)
@@ -77,8 +77,8 @@
 		(uuid "a6b8bba8-d5e3-4f8e-8269-5162bac39272")
 	)
 	(fp_line
-		(start -2.032 -0.762)
-		(end -2.032 -0.889)
+		(start -2.032 -0.86)
+		(end -2.032 -0.987)
 		(stroke
 			(width 0.1524)
 			(type default)
@@ -87,8 +87,8 @@
 		(uuid "cc71a8f6-cd07-4c2a-8a9a-1e7514f1f9fa")
 	)
 	(fp_line
-		(start -2.032 0.889)
-		(end -2.032 0.762)
+		(start -2.032 0.99)
+		(end -2.032 0.863)
 		(stroke
 			(width 0.1524)
 			(type default)
@@ -97,8 +97,8 @@
 		(uuid "1b35c966-5101-4112-a6b9-1ea96b75bb09")
 	)
 	(fp_line
-		(start -1.778 -0.762)
-		(end -1.778 -0.889)
+		(start -1.778 -0.86)
+		(end -1.778 -0.987)
 		(stroke
 			(width 0.1524)
 			(type default)
@@ -107,8 +107,8 @@
 		(uuid "d902c748-037b-4249-b84a-26eb8ab03b78")
 	)
 	(fp_line
-		(start -1.778 0.889)
-		(end -1.778 0.762)
+		(start -1.778 0.99)
+		(end -1.778 0.863)
 		(stroke
 			(width 0.1524)
 			(type default)
@@ -117,8 +117,8 @@
 		(uuid "49e02521-9edc-4b50-9f90-dfb23505626f")
 	)
 	(fp_line
-		(start 1.905 -0.762)
-		(end 1.905 -0.889)
+		(start 1.905 -0.86)
+		(end 1.905 -0.987)
 		(stroke
 			(width 0.1524)
 			(type default)
@@ -127,8 +127,8 @@
 		(uuid "6b65feeb-faac-483d-9a80-49e3ce8e8a82")
 	)
 	(fp_line
-		(start 1.905 0.762)
-		(end 1.905 0.889)
+		(start 1.905 0.863)
+		(end 1.905 0.99)
 		(stroke
 			(width 0.1524)
 			(type default)
@@ -137,8 +137,8 @@
 		(uuid "41738b4e-fbc2-42e7-b9ff-4e2e0a311425")
 	)
 	(fp_line
-		(start 1.905 0.889)
-		(end -2.032 0.889)
+		(start 1.905 0.99)
+		(end -2.032 0.99)
 		(stroke
 			(width 0.1524)
 			(type default)
