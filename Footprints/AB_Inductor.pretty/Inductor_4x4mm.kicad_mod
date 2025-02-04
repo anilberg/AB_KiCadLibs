@@ -65,7 +65,7 @@
 	(attr smd)
 	(fp_line
 		(start -2.46 -2.91)
-		(end 2.47 -2.91)
+		(end 2.46 -2.91)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -84,6 +84,16 @@
 		(uuid "296a56f3-c699-4d2e-8798-e3c36de41175")
 	)
 	(fp_line
+		(start 2.46 -2.91)
+		(end 2.46 2.91)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8c836be3-1986-44ef-aa98-d1f26685ad95")
+	)
+	(fp_line
 		(start 2.46 2.91)
 		(end -2.46 2.91)
 		(stroke
@@ -92,16 +102,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "578d4402-0ed0-434e-9ba9-b1dddd9f8027")
-	)
-	(fp_line
-		(start 2.47 -2.89)
-		(end 2.46 2.91)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "8c836be3-1986-44ef-aa98-d1f26685ad95")
 	)
 	(fp_line
 		(start -2.47 -2.92)
