@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "resistor handsolder")
 	(property "Reference" "REF**"
-		(at 0 -1.25 0)
+		(at 0 -1.38 0)
 		(layer "F.SilkS")
 		(uuid "81f2022a-d679-43c4-91b2-73d62812055d")
 		(effects
@@ -68,8 +68,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.524 -0.508)
-		(end -1.524 0.508)
+		(start -1.524 -0.593)
+		(end -1.524 0.593)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -78,8 +78,8 @@
 		(uuid "59282771-5960-41b4-9cfc-238ceb0eb475")
 	)
 	(fp_line
-		(start -1.397 -0.635)
-		(end 1.397 -0.635)
+		(start -1.397 -0.72)
+		(end 1.453 -0.72)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -88,8 +88,8 @@
 		(uuid "7b9bf5b7-55b6-4399-9633-85b3df432454")
 	)
 	(fp_line
-		(start -1.397 0.635)
-		(end 1.397 0.635)
+		(start -1.397 0.72)
+		(end 1.453 0.72)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -98,8 +98,8 @@
 		(uuid "9fcb4493-1f74-410c-95e9-5794ef22e6ba")
 	)
 	(fp_line
-		(start 1.524 -0.508)
-		(end 1.524 0.508)
+		(start 1.58 -0.593)
+		(end 1.58 0.593)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -108,9 +108,9 @@
 		(uuid "698598cd-cd27-45ef-af78-391671609704")
 	)
 	(fp_arc
-		(start -1.524 -0.508)
-		(mid -1.486803 -0.597803)
-		(end -1.397 -0.635)
+		(start -1.524 -0.593)
+		(mid -1.486803 -0.682803)
+		(end -1.397 -0.72)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -119,9 +119,9 @@
 		(uuid "0811c6ff-273b-4659-8547-d497096203e2")
 	)
 	(fp_arc
-		(start -1.397 0.635)
-		(mid -1.486803 0.597803)
-		(end -1.524 0.508)
+		(start -1.397 0.72)
+		(mid -1.486803 0.682803)
+		(end -1.524 0.593)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -130,9 +130,9 @@
 		(uuid "458fb64e-da90-4380-9262-78f084b2017a")
 	)
 	(fp_arc
-		(start 1.397 -0.635)
-		(mid 1.486803 -0.597803)
-		(end 1.524 -0.508)
+		(start 1.453 -0.72)
+		(mid 1.542803 -0.682803)
+		(end 1.58 -0.593)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -141,9 +141,9 @@
 		(uuid "90011057-07a7-4b17-9e30-22cb25a1c0ad")
 	)
 	(fp_arc
-		(start 1.524 0.508)
-		(mid 1.486803 0.597803)
-		(end 1.397 0.635)
+		(start 1.58 0.593)
+		(mid 1.542803 0.682803)
+		(end 1.453 0.72)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -152,8 +152,8 @@
 		(uuid "662207d4-8826-481a-9a42-1949c56d523f")
 	)
 	(fp_rect
-		(start -1.651 -0.762)
-		(end 1.651 0.762)
+		(start -1.561 -0.752)
+		(end 1.611 0.752)
 		(stroke
 			(width 0.0508)
 			(type default)
