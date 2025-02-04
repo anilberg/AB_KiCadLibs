@@ -69,19 +69,19 @@
 	(attr smd)
 	(fp_poly
 		(pts
-			(xy -2.3 -1.35) (xy -2 -1.7) (xy -2.6 -1.7)
+			(xy -2.3 -1.41) (xy -2.11 -1.6) (xy -2.49 -1.6)
 		)
 		(stroke
-			(width 0.1)
+			(width 0.1524)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "9f540f63-17e5-4d1a-a8ca-ce7df1d1a074")
+		(uuid "07432bb5-a541-4d55-acb2-4d47fce22ccf")
 	)
 	(fp_poly
 		(pts
-			(xy -1.4 -1.65) (xy 1.4 -1.65) (xy 1.4 1.65) (xy -1.4 1.65)
+			(xy -1.37 -1.65) (xy 1.37 -1.65) (xy 1.37 1.65) (xy -1.37 1.65)
 		)
 		(stroke
 			(width 0.05)
