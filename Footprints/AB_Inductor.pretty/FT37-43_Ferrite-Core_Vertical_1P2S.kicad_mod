@@ -71,7 +71,7 @@
 		(start -1.778 -4.953)
 		(end 1.778 4.953)
 		(stroke
-			(width 0.1524)
+			(width 0.15)
 			(type default)
 		)
 		(fill none)
@@ -161,6 +161,17 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "661b70ac-c4c0-4b18-a052-39757f3172ad")
+	)
+	(fp_rect
+		(start -1.618 -4.8)
+		(end 1.618 4.786)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e3cb27d6-d26d-4d76-8dc8-d799dac0a156")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -0.508 0)
