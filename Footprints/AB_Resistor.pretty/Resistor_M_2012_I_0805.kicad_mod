@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "Val**"
-		(at 0 2.159 0)
+		(at 0 2.03 0)
 		(layer "F.Fab")
 		(uuid "9be0d17e-eba4-4af4-850f-152a6ef681dd")
 		(effects
@@ -67,10 +67,10 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -2.286 -1.016)
-		(end 2.286 1.016)
+		(start -2.186 -1.006)
+		(end 2.186 1.006)
 		(stroke
-			(width 0.1524)
+			(width 0.15)
 			(type default)
 		)
 		(fill none)
@@ -78,8 +78,8 @@
 		(uuid "1bc82ddc-6c86-4d32-98b4-e3010b98145d")
 	)
 	(fp_rect
-		(start -2.54 -1.27)
-		(end 2.54 1.27)
+		(start -2.23 -1.05)
+		(end 2.23 1.05)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -89,8 +89,8 @@
 		(uuid "3ac652fd-4364-415b-a3c1-34128f2e1886")
 	)
 	(fp_rect
-		(start -2.286 -1.016)
-		(end 2.286 1.016)
+		(start -1.986 -0.996)
+		(end 2.056 0.996)
 		(stroke
 			(width 0.1016)
 			(type default)
@@ -100,8 +100,8 @@
 		(uuid "762a8558-a75e-4dbc-93b3-858d126fc044")
 	)
 	(fp_rect
-		(start -1.524 -1.016)
-		(end 1.524 1.016)
+		(start -1.524 -0.996)
+		(end 1.524 0.996)
 		(stroke
 			(width 0.1016)
 			(type solid)
