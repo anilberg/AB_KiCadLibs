@@ -63,48 +63,48 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.2 -3)
-		(end 2.2 -3)
+		(start -2.26 -3.01)
+		(end 2.26 -3.01)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "3b28a344-2ce0-415f-a02e-a69bc93bf8da")
 	)
 	(fp_line
-		(start -2.2 3)
-		(end -2.2 -3)
+		(start -2.26 2.96)
+		(end -2.26 -3.01)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "bc323d67-cb50-4e10-ae14-0cd945432065")
 	)
 	(fp_line
-		(start 2.2 -3)
-		(end 2.2 3)
+		(start 2.26 -3.01)
+		(end 2.26 2.96)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "178ec434-cc2b-4bd9-a64a-6e82af7b2ad8")
 	)
 	(fp_line
-		(start 2.2 3)
-		(end -2.2 3)
+		(start 2.26 2.96)
+		(end -2.26 2.96)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "63126b76-c7f2-4461-b37f-b94e3c62c0b6")
 	)
 	(fp_line
-		(start -2.2 -3)
-		(end 2.2 -3)
+		(start -2.3 -3.05)
+		(end 2.3 -3.05)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -113,8 +113,8 @@
 		(uuid "8d9a44a6-744f-4615-bb70-7150e3dcd02d")
 	)
 	(fp_line
-		(start -2.2 3)
-		(end -2.2 -3)
+		(start -2.3 3)
+		(end -2.3 -3.05)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -123,8 +123,8 @@
 		(uuid "96a75b4b-1bef-48b8-9179-d3f887bc8bfa")
 	)
 	(fp_line
-		(start 2.2 -3)
-		(end 2.2 3)
+		(start 2.3 -3.05)
+		(end 2.3 3)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -133,8 +133,8 @@
 		(uuid "2a26c952-c39b-46d3-9247-529f3d08cab3")
 	)
 	(fp_line
-		(start 2.2 3)
-		(end -2.2 3)
+		(start 2.3 3)
+		(end -2.3 3)
 		(stroke
 			(width 0.05)
 			(type default)
