@@ -78,7 +78,7 @@
 		(uuid "a70465c0-2cec-452c-bdda-bfb78ee3a1f0")
 	)
 	(fp_line
-		(start -4.285 -0.6)
+		(start -4.285 -0.64)
 		(end -4.285 -1.91)
 		(stroke
 			(width 0.12)
@@ -118,7 +118,7 @@
 		(uuid "6cd4cf06-5c40-4c52-b1bd-dad9c20a428e")
 	)
 	(fp_line
-		(start 4.285 -0.6)
+		(start 4.285 -0.64)
 		(end 4.285 -1.91)
 		(stroke
 			(width 0.12)
