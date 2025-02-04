@@ -152,8 +152,8 @@
 		(uuid "2910e235-27bc-435d-94b7-2c84f5b8a45d")
 	)
 	(fp_circle
-		(center -32 33)
-		(end -31.25 33)
+		(center -32 73.8)
+		(end -31.25 73.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -185,8 +185,8 @@
 		(uuid "33cfb3ca-7b56-445b-87d2-364b5cc52212")
 	)
 	(fp_circle
-		(center 32 33)
-		(end 32.75 33)
+		(center 32 73.8)
+		(end 32.75 73.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -281,14 +281,14 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at -32 33)
+		(at -32 73.8)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Mask")
 		(uuid "fc467718-95db-4c45-bdcd-b6c70c3f4fef")
 	)
 	(pad "" np_thru_hole circle
-		(at 32 33)
+		(at 32 73.8)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Mask")
