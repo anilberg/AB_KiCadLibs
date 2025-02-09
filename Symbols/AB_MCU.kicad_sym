@@ -51,7 +51,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C69336"
 			(at 0 -125.476 0)
 			(effects
 				(font
@@ -60,8 +60,17 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F446RET6/C69336"
 			(at 0.254 -127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ozdisan" "https://www.ozdisan.com/integrated-circuits-ics/embedded-ics/microcontrollers/STM32F446RET6/492201"
+			(at 0.254 -131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
