@@ -67,6 +67,15 @@
 				(hide yes)
 			)
 		)
+		(property "ozdisan" "https://www.ozdisan.com/integrated-circuits-ics/memory-ics/embedded-memories/M24M01-RMN6TP/472380"
+			(at 0 -36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "M24M01_0_1"
 			(rectangle
 				(start -3.175 11.43)
