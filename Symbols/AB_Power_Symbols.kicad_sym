@@ -381,6 +381,7 @@
 		)
 		(property "Value" "12V"
 			(at 0 3.556 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -621,6 +622,7 @@
 		)
 		(property "Value" "3.3V"
 			(at 0 3.556 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,6 +863,7 @@
 		)
 		(property "Value" "5V"
 			(at 0 3.556 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
