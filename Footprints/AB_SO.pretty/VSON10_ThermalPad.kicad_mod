@@ -176,8 +176,8 @@
 		(layer "F.Fab")
 		(uuid "a258a5d6-2215-46c9-8509-47a66517849d")
 	)
-	(fp_text user "{REFERENCE}"
-		(at -2.05 1 0)
+	(fp_text user "${REFERENCE}"
+		(at -0.01 0.27 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "18bbc4b6-ba44-4fee-a478-0066d7d805d8")
@@ -186,7 +186,6 @@
 				(size 0.4 0.4)
 				(thickness 0.06)
 			)
-			(justify left bottom)
 		)
 	)
 	(pad "1" smd rect
