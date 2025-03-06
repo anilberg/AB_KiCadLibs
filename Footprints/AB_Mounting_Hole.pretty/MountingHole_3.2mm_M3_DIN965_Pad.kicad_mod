@@ -1,7 +1,7 @@
 (footprint "MountingHole_3.2mm_M3_DIN965_Pad"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mounting Hole 3.2mm, M3, DIN965")
 	(tags "mounting hole 3.2mm m3 din965")
@@ -20,24 +20,12 @@
 	(property "Value" "M3"
 		(at 0 -2.1 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "6900a814-a5b2-45eb-bb93-b38f9327f7b4")
 		(effects
 			(font
 				(size 0.4 0.4)
 				(thickness 0.06)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ea6dee3c-4e17-42ba-9202-7f5764a3aedf")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -75,7 +63,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "7c3f3c61-2bfd-40ab-bf30-ab489db2bdcc")
 	)
@@ -86,7 +74,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "6f87114b-69f4-465c-96f6-233c7a14bdf9")
 	)
@@ -98,4 +86,5 @@
 		(remove_unused_layers no)
 		(uuid "4bf03971-0604-4386-9440-7d22631cb33e")
 	)
+	(embedded_fonts no)
 )
