@@ -1,7 +1,7 @@
 (footprint "Capacitor_M_5650_I_2220"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "capacitor handsolder")
 	(property "Reference" "REF**"
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Val**"
-		(at 0 0 0)
+		(at 0 3.18 0)
 		(layer "F.Fab")
 		(uuid "f08510e7-efa3-4242-bb50-890ecbbf49d9")
 		(effects
@@ -26,20 +26,8 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a784a03a-944f-4fde-84bf-c405064afbf6")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 3.18 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "ab9fbf6a-f4ff-4c8b-a72d-67430f4bfce6")
@@ -51,7 +39,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 3.18 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "86304f93-f835-446f-8a2e-a4a5af9e3151")
@@ -194,12 +182,23 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "597b1cd5-fe58-4993-8247-c5c7194ca5ae")
 	)
+	(fp_rect
+		(start -1.705 -2.8)
+		(end 1.7 2.8)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "c496fdc7-4b37-4bde-9b30-97095ebf4a3b")
+	)
 	(fp_text user "${REFERENCE}"
-		(at -2.2 3.6 0)
+		(at 0 3.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "31312918-759a-4420-b7a7-be56f6bf5890")
@@ -208,23 +207,23 @@
 				(size 0.4 0.4)
 				(thickness 0.06)
 			)
-			(justify left bottom)
 		)
 	)
 	(pad "1" smd roundrect
 		(at -2.6375 0)
 		(size 1.975 5.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.126582)
 		(uuid "5d6decc3-2103-4c6b-86f7-ebd1849d9ea2")
 	)
 	(pad "2" smd roundrect
 		(at 2.6375 0)
 		(size 1.975 5.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.126582)
 		(uuid "3cb8d331-96cb-4dc6-96fe-289263ba48d7")
 	)
+	(embedded_fonts no)
 	(model "/media/anil/vault/AB_KiCADLibs/3D_Models/Capacitor/CAP2220.stp"
 		(offset
 			(xyz 0 0 0)
