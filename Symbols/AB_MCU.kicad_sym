@@ -824,7 +824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MCU 32BIT 2MB FLASH 100LQFP"
+		(property "Description" "ARM-M4 180MHz LQFP-100(14x14) Microcontrollers (MCU/MPU/SOC) ROHS"
 			(at -0.508 -118.364 0)
 			(effects
 				(font
