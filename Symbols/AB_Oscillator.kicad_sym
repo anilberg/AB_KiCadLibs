@@ -546,7 +546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AB_Crystal:Crystal_5032_4Pin_5.0x3.2"
+		(property "Footprint" "AB_Crystal:Crystal_5032_4Pin_5.0x3.2mm"
 			(at -0.254 -10.16 0)
 			(effects
 				(font
