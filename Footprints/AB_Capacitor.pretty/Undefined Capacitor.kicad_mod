@@ -1,7 +1,7 @@
 (footprint "Undefined Capacitor"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 2.25 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "55dc8a37-6542-469c-8ee3-5d8b3e416e98")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -125,6 +113,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "0b444b99-1050-4c58-b852-3ec3206ec3ac")
 	)
+	(embedded_fonts no)
 	(model "C:/anil/3d-models/Capacitor/Capacitor_M_2012_I_0805.step"
 		(offset
 			(xyz -1 0 0.3)
