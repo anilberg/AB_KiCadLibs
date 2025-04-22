@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "AP2210K-5.0TRG1"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -107,24 +107,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -7.62 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -7.62 -1.27 0)
 				(length 2.54)
@@ -143,17 +125,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 7.62 -1.27 180)
+			(pin power_in line
+				(at 0 -7.62 90)
 				(length 2.54)
-				(name "BYP"
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -179,7 +161,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 7.62 -1.27 180)
+				(length 2.54)
+				(name "BYP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AP2210N-3.0TRG1"
 		(exclude_from_sim no)
@@ -219,7 +220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "300mA 75dB@(100Hz) Fixed 3V Positive electrode 13.2V SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS "
+		(property "Description" "300mA 75dB@(100Hz) Fixed 3V Positive electrode 13.2V SOT-23 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
 			(at 0.254 -28.956 0)
 			(effects
 				(font
@@ -259,6 +260,24 @@
 				)
 			)
 			(pin power_in line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 0 -8.89 90)
 				(length 2.54)
 				(name "GND"
@@ -294,25 +313,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "Vin"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MAX870"
 		(exclude_from_sim no)
@@ -391,24 +393,6 @@
 					(type background)
 				)
 			)
-			(pin passive line
-				(at 8.89 2.54 180)
-				(length 2.54)
-				(name "Vout"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at -8.89 2.54 0)
 				(length 2.54)
@@ -420,6 +404,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 0 0)
+				(length 2.54)
+				(name "C+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -464,16 +466,16 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 0 0)
+				(at 8.89 2.54 180)
 				(length 2.54)
-				(name "C+"
+				(name "Vout"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -482,6 +484,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "REF3033"
 		(exclude_from_sim no)
@@ -521,7 +524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3V ±0.2% 3.35V~5.5V 25mA Fixed SOT-23 Voltage Reference ROHS "
+		(property "Description" "3.3V ±0.2% 3.35V~5.5V 25mA Fixed SOT-23 Voltage Reference ROHS"
 			(at 0.254 -28.956 0)
 			(effects
 				(font
@@ -578,24 +581,6 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "Vout"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 0 -8.89 90)
 				(length 2.54)
@@ -614,7 +599,178 @@
 					)
 				)
 			)
+			(pin power_out line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "TLV1117-33"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV1117-33"
+			(at 0.254 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AB_SO:SOT-223-3_TabPin2"
+			(at 0 -20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
+			(at 1.27 -33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Low-Dropout Linear Regulator, Adjustable output, TO-220/TO-252/TO-263/SOT-223"
+			(at 0 -24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C37359"
+			(at 0.254 -22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.lcsc.com/product-detail/Voltage-Regulators-Linear-Low-Drop-Out-LDO-Regulators_Texas-Instruments-TLV1117-33IDCYR_C37359.html?s_z=n_tlv1117"
+			(at 1.016 -27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ozdisan" "https://ozdisan.com/entegre-devreler-ics/guc-entegreleri/lineer-voltaj-regulatorleri/TLV1117-33IDCYR"
+			(at 0 -36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "3.3V Voltage Regulator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TLV1117-33_1_1"
+			(rectangle
+				(start -5.08 2.54)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "TLV1117-ADJ"
 		(exclude_from_sim no)
@@ -702,6 +858,24 @@
 					(type background)
 				)
 			)
+			(pin passive line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at 0 -7.62 90)
 				(length 2.54)
@@ -738,25 +912,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "Vin"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UA78M33CDCYR"
 		(exclude_from_sim no)
@@ -796,7 +953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "80dB@(120Hz) 500mA Fixed 3.3V Positive electrode 25V SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS "
+		(property "Description" "80dB@(120Hz) 500mA Fixed 3.3V Positive electrode 25V SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
 			(at 0 -24.892 0)
 			(effects
 				(font
@@ -890,5 +1047,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
