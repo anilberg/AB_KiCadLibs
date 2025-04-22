@@ -337,7 +337,7 @@
 			(xyz -180 -0 -0)
 		)
 	)
-	(model " "
+	(model "${AB_LIB_DIR}/3D_Models/LCD_Screen/LCD1602_Winstar-WH1602B.stp"
 		(offset
 			(xyz 0.42 0.01 4.5)
 		)
