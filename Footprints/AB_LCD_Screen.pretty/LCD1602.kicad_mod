@@ -328,24 +328,24 @@
 	(embedded_fonts no)
 	(model "${AB_LIB_DIR}/3D_Models/Pin_Header/Pinheader_Male_01x16.stp"
 		(offset
-			(xyz -30.8 16.2 5)
+			(xyz -31.53 16 5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -180 0 0)
+			(xyz -180 -0 -0)
 		)
 	)
-	(model "${AB_LIB_DIR}/3D_Models/LCD_Screen/LCD1602_Winstar-WH1602B.stp"
+	(model " "
 		(offset
-			(xyz 1.2 0.2 4.5)
+			(xyz 0.42 0.01 4.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
