@@ -1,10 +1,10 @@
 (footprint "Capacitor_M_2012_I_0805"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -1.5 0)
+		(at 0 -1.68 0)
 		(layer "F.SilkS")
 		(uuid "416950d3-1163-4feb-8c0c-857f5b2b39bd")
 		(effects
@@ -15,26 +15,13 @@
 		)
 	)
 	(property "Value" "Val**"
-		(at 0 0 0)
+		(at 0 2.16 0)
 		(layer "F.Fab")
 		(uuid "9be0d17e-eba4-4af4-850f-152a6ef681dd")
 		(effects
 			(font
 				(size 0.4 0.4)
 				(thickness 0.06)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0d81c341-8d40-4117-9ecd-bb77510d42fb")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -65,70 +52,52 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -2.032 0.83)
-		(end -2.032 -0.83)
+	(fp_rect
+		(start -2.186 -1.006)
+		(end 2.186 1.006)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "4d9ea47d-e5aa-4656-8080-5f32720a86bb")
-	)
-	(fp_line
-		(start 2.032 -0.83)
-		(end -2.032 -0.83)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "482ccc6c-82b5-4287-9111-d143a2b79ec0")
-	)
-	(fp_line
-		(start 2.032 0.83)
-		(end -2.032 0.83)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "b9acff5c-b997-43f6-9dee-af7f5b5639a3")
-	)
-	(fp_line
-		(start 2.032 0.83)
-		(end 2.032 -0.83)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "030c37b6-2ef9-45cb-9efe-b7be2730dcb5")
+		(uuid "ea9ad87a-5237-46db-b69f-0952003bcb0e")
 	)
 	(fp_rect
-		(start -1.98 -0.78)
-		(end 1.98 0.78)
+		(start -2.23 -1.05)
+		(end 2.23 1.05)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "3653db33-cbb1-4f47-b22c-ad4d922f0a83")
+		(uuid "763d68be-f03b-4bcf-9746-43f52904b114")
 	)
 	(fp_rect
-		(start -2.01 -0.81)
-		(end 2.01 0.805)
+		(start -1.986 -0.996)
+		(end 2.056 0.996)
 		(stroke
-			(width 0.1)
+			(width 0.1016)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "ff0a88ca-1682-4399-ba92-204dec274d51")
+		(uuid "89ae9b97-5d4c-447b-beef-39a377e6a132")
+	)
+	(fp_rect
+		(start -1.524 -0.996)
+		(end 1.524 0.996)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "6ffde16a-045c-4300-aafe-3353c12ab543")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -2.2 0.85 0)
+		(at 0 1.42 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "7ebbf271-d78d-4e1f-b1e5-2d469ae4970f")
@@ -137,13 +106,12 @@
 				(size 0.4 0.4)
 				(thickness 0.06)
 			)
-			(justify left bottom)
 		)
 	)
 	(pad "1" smd roundrect
 		(at -1.175 0)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "86f4bb6e-da58-435c-98ff-06e34eb31e55")
@@ -151,11 +119,12 @@
 	(pad "2" smd roundrect
 		(at 1.175 0)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "86f4bb6e-da58-435c-98ff-06e34eb31e55")
 	)
+	(embedded_fonts no)
 	(model "${AB_LIB_DIR}/3D_Models/Capacitor/C_I_0805_M_2012.step"
 		(offset
 			(xyz 0 0 0)
