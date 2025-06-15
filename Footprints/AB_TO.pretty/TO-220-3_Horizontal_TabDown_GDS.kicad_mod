@@ -16,15 +16,14 @@
 			)
 		)
 	)
-	(property "Value" "TO-220-3_Horizontal_TabDown_GDS"
-		(at 2.54 2 0)
+	(property "Value" "Val**"
+		(at 2.54 -20.02 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "4aef41d2-9cbc-4609-b80a-a8a17c6c5489")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.06)
 			)
 		)
 	)
@@ -439,18 +438,6 @@
 		(at 2.54 -20.82 0)
 		(layer "F.Fab")
 		(uuid "74cc5bbc-e62e-4b27-8158-27618677b108")
-		(effects
-			(font
-				(size 0.4 0.4)
-				(thickness 0.06)
-			)
-		)
-	)
-	(fp_text user "Val**"
-		(at 2.54 -19.96 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "ebf6ffdb-b203-41ba-b49c-d1342bfe8723")
 		(effects
 			(font
 				(size 0.4 0.4)
